@@ -14,7 +14,20 @@ class Pezzo{
 
     public:
 
+        Pezzo(bool g, bool w, char n, Posizione p);
+        
+        //disabilitazione copy constructor e operator=
+        //per ora li disabilito per evitare i problemi di slicing
+        //ma non sono sicuro servirà perchè tutti i pezzi dovrebbero
+        //avere le stesse variabili membro
+        Pezzo(const Pezzo&) = delete;
+        Pezzo operator=(const Pezzo&) = delete;
+
         bool isWhite() { return white; }
+
+        bool isInGame() { return inGame; }
+
+        char getName() { return name; }
 
         virtual bool isLegal(Posizione end) = 0;
 
@@ -27,7 +40,7 @@ class Posizione{
         int y;
 
     public:
-        Position(int a, int b)  //non ho messo controlli sulle coordinate perche' suppongo li faremo dal main
+        Position(int a, int b)  //non ho messo controlli sulle coordinate perche' saranno fatti nel main
 	        : y{a}, x{b} {}
 
 		void set_pos(int a, int b) { y = a; x = b; }
