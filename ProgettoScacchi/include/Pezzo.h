@@ -3,6 +3,24 @@
 #ifndef PEZZO_H
 #define PEZZO_H
 
+class Posizione{
+
+    private:
+        int x;
+        int y;
+
+    public:
+        Posizione(int a, int b)  //non ho messo controlli sulle coordinate perche' saranno fatti nel main
+	        : y{a}, x{b} {}
+
+		void set_pos(int a, int b) { y = a; x = b; }
+		void set_y(int a) { y = a; }
+		void set_x(int b) { x = b; }
+		
+		int get_y() const { return y; }
+		int get_x() const  { return x; }
+};
+
 class Pezzo{
 
     protected:
@@ -21,7 +39,7 @@ class Pezzo{
         //ma non sono sicuro servirà perchè tutti i pezzi dovrebbero
         //avere le stesse variabili membro
         Pezzo(const Pezzo&) = delete;
-        Pezzo operator=(const Pezzo&) = delete;
+        Pezzo& operator=(const Pezzo&) = delete;
 
         bool isWhite() { return white; }
 
@@ -31,24 +49,6 @@ class Pezzo{
 
         virtual bool isLegal(Posizione end) = 0;
 
-};
-
-class Posizione{
-
-    private:
-        int x;
-        int y;
-
-    public:
-        Position(int a, int b)  //non ho messo controlli sulle coordinate perche' saranno fatti nel main
-	        : y{a}, x{b} {}
-
-		void set_pos(int a, int b) { y = a; x = b; }
-		void set_y(int a) { y = a; }
-		void set_x(int b) { x = b; }
-		
-		int get_y() const { return y; }
-		int get_x() const  { return x; }
 };
 
 #endif
