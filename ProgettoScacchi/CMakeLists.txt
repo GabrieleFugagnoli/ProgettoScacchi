@@ -5,13 +5,13 @@ project (scacchiera)
 include_directories(include)
 
 add_library(pezzo
-	include/pezzo.h
-	src/pezzo.cpp
+	include/Pezzo.h
+	src/Pezzo.cpp
 )
 
 add_library(scacchiera
-	include/scacchiera.h
-	src/scacchiera.cpp
+	include/Scacchiera.h
+	src/Scacchiera.cpp
 )
 
 add_executable(game

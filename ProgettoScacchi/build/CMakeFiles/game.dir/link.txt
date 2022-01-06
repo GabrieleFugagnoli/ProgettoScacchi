@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/game.dir/src/game.cpp.o  -o game  libpezzo.a libscacchiera.a 

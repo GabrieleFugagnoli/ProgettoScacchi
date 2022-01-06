@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Pezzo.h
+
+/home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/src/Pezzo.cpp
+Pezzo.h
+/home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/src/Pezzo.h
+
