@@ -3,6 +3,11 @@
 #ifndef SCACCHIERA_H
 #define SCACCHIERA_H
 #include <vector>
+#include "Pezzo.h"
+
+using namespace std;
+
+class Pezzo;
 
 class Scacchiera{
 

@@ -3,6 +3,10 @@
 #ifndef PEZZO_H
 #define PEZZO_H
 
+#include "Scacchiera.h"
+
+class Scacchiera;
+
 class Posizione{
 
     private:
