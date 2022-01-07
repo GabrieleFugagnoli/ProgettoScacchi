@@ -6,19 +6,19 @@
 class Posizione{
 
     private:
-        int x;
-        int y;
+        unsigned int x;
+        unsigned int y;
 
     public:
-        Posizione(int a, int b)  //non ho messo controlli sulle coordinate perche' saranno fatti nel main
+        Posizione(unsigned int a, unsigned int b)  //non ho messo controlli sulle coordinate perche' saranno fatti nel main
 	        : y{a}, x{b} {}
 
-		void set_pos(int a, int b) { y = a; x = b; }
-		void set_y(int a) { y = a; }
-		void set_x(int b) { x = b; }
+		void set_pos(unsigned int a, unsigned int b) { y = a; x = b; }
+		void set_y(unsigned int a) { y = a; }
+		void set_x(unsigned int b) { x = b; }
 		
-		int get_y() const { return y; }
-		int get_x() const  { return x; }
+		unsigned int get_y() const { return y; }
+		unsigned int get_x() const  { return x; }
 };
 
 class Pezzo{
@@ -47,7 +47,7 @@ class Pezzo{
 
         char getName() { return name; }
 
-        virtual bool isLegal(Posizione end) = 0;
+        virtual bool isLegal(Scacchiera Board, Posizione end) = 0;
 
 };
 
