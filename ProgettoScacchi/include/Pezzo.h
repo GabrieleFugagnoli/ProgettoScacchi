@@ -36,7 +36,7 @@ class Pezzo{
 
     public:
 
-        Pezzo(bool g, bool w, char n, Posizione p);
+        Pezzo(bool g, bool w, char n, Posizione& p);
         
         //disabilitazione copy constructor e operator=
         //per ora li disabilito per evitare i problemi di slicing
@@ -45,13 +45,13 @@ class Pezzo{
         Pezzo(const Pezzo&) = delete;
         Pezzo& operator=(const Pezzo&) = delete;
 
-        bool isWhite() { return white; }
+        bool isWhite() const { return white; }
 
-        bool isInGame() { return inGame; }
+        bool isInGame() const { return inGame; }
 
-        char getName() { return name; }
+        char getName() const { return name; }
 
-        virtual bool isLegal(Scacchiera Board, Posizione end) = 0;
+        virtual bool isLegal(Scacchiera& Board, Posizione& end) = 0;
 
 };
 
