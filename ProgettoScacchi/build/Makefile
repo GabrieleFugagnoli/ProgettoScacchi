@@ -124,6 +124,19 @@ game/fast:
 .PHONY : game/fast
 
 #=============================================================================
+# Target rules for targets named pezziderivati
+
+# Build rule for target.
+pezziderivati: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pezziderivati
+.PHONY : pezziderivati
+
+# fast build rule for target.
+pezziderivati/fast:
+	$(MAKE) -f CMakeFiles/pezziderivati.dir/build.make CMakeFiles/pezziderivati.dir/build
+.PHONY : pezziderivati/fast
+
+#=============================================================================
 # Target rules for targets named scacchiera
 
 # Build rule for target.
@@ -148,6 +161,33 @@ pezzo: cmake_check_build_system
 pezzo/fast:
 	$(MAKE) -f CMakeFiles/pezzo.dir/build.make CMakeFiles/pezzo.dir/build
 .PHONY : pezzo/fast
+
+src/PezziDerivati.o: src/PezziDerivati.cpp.o
+
+.PHONY : src/PezziDerivati.o
+
+# target to build an object file
+src/PezziDerivati.cpp.o:
+	$(MAKE) -f CMakeFiles/pezziderivati.dir/build.make CMakeFiles/pezziderivati.dir/src/PezziDerivati.cpp.o
+.PHONY : src/PezziDerivati.cpp.o
+
+src/PezziDerivati.i: src/PezziDerivati.cpp.i
+
+.PHONY : src/PezziDerivati.i
+
+# target to preprocess a source file
+src/PezziDerivati.cpp.i:
+	$(MAKE) -f CMakeFiles/pezziderivati.dir/build.make CMakeFiles/pezziderivati.dir/src/PezziDerivati.cpp.i
+.PHONY : src/PezziDerivati.cpp.i
+
+src/PezziDerivati.s: src/PezziDerivati.cpp.s
+
+.PHONY : src/PezziDerivati.s
+
+# target to generate assembly for a file
+src/PezziDerivati.cpp.s:
+	$(MAKE) -f CMakeFiles/pezziderivati.dir/build.make CMakeFiles/pezziderivati.dir/src/PezziDerivati.cpp.s
+.PHONY : src/PezziDerivati.cpp.s
 
 src/Pezzo.o: src/Pezzo.cpp.o
 
@@ -239,8 +279,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... game"
+	@echo "... pezziderivati"
 	@echo "... scacchiera"
 	@echo "... pezzo"
+	@echo "... src/PezziDerivati.o"
+	@echo "... src/PezziDerivati.i"
+	@echo "... src/PezziDerivati.s"
 	@echo "... src/Pezzo.o"
 	@echo "... src/Pezzo.i"
 	@echo "... src/Pezzo.s"

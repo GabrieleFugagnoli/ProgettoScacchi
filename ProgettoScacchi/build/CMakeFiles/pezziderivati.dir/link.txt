@@ -1,0 +1,2 @@
+/bin/ar qc libpezziderivati.a  CMakeFiles/pezziderivati.dir/src/PezziDerivati.cpp.o
+/bin/ranlib libpezziderivati.a

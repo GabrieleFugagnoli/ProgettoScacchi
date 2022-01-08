@@ -3,4 +3,5 @@
 
 CMakeFiles/pezzo.dir/src/Pezzo.cpp.o
  ../include/Pezzo.h
+ ../include/Scacchiera.h
  /home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/src/Pezzo.cpp

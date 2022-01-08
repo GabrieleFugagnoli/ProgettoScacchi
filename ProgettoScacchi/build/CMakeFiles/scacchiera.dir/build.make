@@ -60,15 +60,15 @@ include CMakeFiles/scacchiera.dir/flags.make
 CMakeFiles/scacchiera.dir/src/Scacchiera.cpp.o: CMakeFiles/scacchiera.dir/flags.make
 CMakeFiles/scacchiera.dir/src/Scacchiera.cpp.o: ../src/Scacchiera.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/scacchiera.dir/src/Scacchiera.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scacchiera.dir/src/Scacchiera.cpp.o -c /home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/src/Scacchiera.cpp
+	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scacchiera.dir/src/Scacchiera.cpp.o -c /home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/src/Scacchiera.cpp
 
 CMakeFiles/scacchiera.dir/src/Scacchiera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/scacchiera.dir/src/Scacchiera.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/src/Scacchiera.cpp > CMakeFiles/scacchiera.dir/src/Scacchiera.cpp.i
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/src/Scacchiera.cpp > CMakeFiles/scacchiera.dir/src/Scacchiera.cpp.i
 
 CMakeFiles/scacchiera.dir/src/Scacchiera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/scacchiera.dir/src/Scacchiera.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/src/Scacchiera.cpp -o CMakeFiles/scacchiera.dir/src/Scacchiera.cpp.s
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/src/Scacchiera.cpp -o CMakeFiles/scacchiera.dir/src/Scacchiera.cpp.s
 
 # Object files for target scacchiera
 scacchiera_OBJECTS = \

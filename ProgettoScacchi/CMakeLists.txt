@@ -14,6 +14,11 @@ add_library(scacchiera
 	src/Scacchiera.cpp
 )
 
+add_library(pezziderivati
+	include/PezziDerivati.h
+	src/PezziDerivati.cpp
+)
+
 add_executable(game
 	src/game.cpp
 )
