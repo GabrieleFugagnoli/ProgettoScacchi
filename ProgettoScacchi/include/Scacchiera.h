@@ -9,6 +9,7 @@
 using namespace std;
 
 class Pezzo;
+class Posizione;
 
 class Scacchiera{
 
