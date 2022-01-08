@@ -12,7 +12,7 @@ class Pezzo;
 class Scacchiera{
 
     private:
-        vector<vector<Pezzo>> scac;
+        vector<vector<Pezzo> > scac;
         const int x_MAX=7;
         const int y_MAX=7;
         //o si fa la 
@@ -25,7 +25,7 @@ class Scacchiera{
 
 		
         Pezzo get_Pezzo(Posizione pos);
-        void set_position(Position posInitial, Position posFinal, Pezzo pezzo);
+        void set_position(Posizione posInitial, Posizione posFinal, Pezzo pezzo);
         friend std::ostream& operator<<(std::ostream& os, Scacchiera& scac);
         void reset_scacchiera();
 
