@@ -4,7 +4,6 @@
 #define SCACCHIERA_H
 #include <ostream>
 #include <vector>
-#include <ostream>
 #include "Pezzo.h"
 
 using namespace std;
@@ -14,7 +13,7 @@ class Pezzo;
 class Scacchiera{
 
     private:
-        vector<vector<Pezzo> > scac;
+        vector<vector<Pezzo>> scac;
         const int x_MAX=7;
         const int y_MAX=7;
         //o si fa la 
