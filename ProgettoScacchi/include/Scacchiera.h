@@ -2,6 +2,7 @@
 
 #ifndef SCACCHIERA_H
 #define SCACCHIERA_H
+#include <ostream>
 #include <vector>
 #include "Pezzo.h"
 
@@ -24,7 +25,7 @@ class Scacchiera{
         {}
 
 		
-        Pezzo get_Pezzo(Posizione pos);
+        Pezzo& get_Pezzo(Posizione pos);
         void set_position(Posizione posInitial, Posizione posFinal, Pezzo pezzo);
         friend std::ostream& operator<<(std::ostream& os, Scacchiera& scac);
         void reset_scacchiera();
