@@ -1,7 +1,7 @@
 //Gabriele Fugagnoli
 #include "HelperFunctions.h"
 #include <string>
-#include <Pezzo.h>
+#include "Pezzo.h"
 using namespace std;
 
 //Restituisce le coordinate della posizione di partenza della mossa sotto forma di un oggetto di classe Posizione
