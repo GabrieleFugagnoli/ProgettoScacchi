@@ -2,7 +2,7 @@
 #ifndef HELPERFUNCTIONS_H
 #define HELPERFUNCTIONS_H
 #include <string>
-#include <Pezzo.h>
+#include "Pezzo.h"
 using namespace std;
 
 class Invalid_Argument{};
