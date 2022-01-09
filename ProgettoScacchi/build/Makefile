@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoSc
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -124,6 +124,19 @@ game/fast:
 .PHONY : game/fast
 
 #=============================================================================
+# Target rules for targets named helperfunctions
+
+# Build rule for target.
+helperfunctions: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 helperfunctions
+.PHONY : helperfunctions
+
+# fast build rule for target.
+helperfunctions/fast:
+	$(MAKE) -f CMakeFiles/helperfunctions.dir/build.make CMakeFiles/helperfunctions.dir/build
+.PHONY : helperfunctions/fast
+
+#=============================================================================
 # Target rules for targets named pezziderivati
 
 # Build rule for target.
@@ -161,6 +174,33 @@ pezzo: cmake_check_build_system
 pezzo/fast:
 	$(MAKE) -f CMakeFiles/pezzo.dir/build.make CMakeFiles/pezzo.dir/build
 .PHONY : pezzo/fast
+
+src/HelperFunctions.o: src/HelperFunctions.cpp.o
+
+.PHONY : src/HelperFunctions.o
+
+# target to build an object file
+src/HelperFunctions.cpp.o:
+	$(MAKE) -f CMakeFiles/helperfunctions.dir/build.make CMakeFiles/helperfunctions.dir/src/HelperFunctions.cpp.o
+.PHONY : src/HelperFunctions.cpp.o
+
+src/HelperFunctions.i: src/HelperFunctions.cpp.i
+
+.PHONY : src/HelperFunctions.i
+
+# target to preprocess a source file
+src/HelperFunctions.cpp.i:
+	$(MAKE) -f CMakeFiles/helperfunctions.dir/build.make CMakeFiles/helperfunctions.dir/src/HelperFunctions.cpp.i
+.PHONY : src/HelperFunctions.cpp.i
+
+src/HelperFunctions.s: src/HelperFunctions.cpp.s
+
+.PHONY : src/HelperFunctions.s
+
+# target to generate assembly for a file
+src/HelperFunctions.cpp.s:
+	$(MAKE) -f CMakeFiles/helperfunctions.dir/build.make CMakeFiles/helperfunctions.dir/src/HelperFunctions.cpp.s
+.PHONY : src/HelperFunctions.cpp.s
 
 src/PezziDerivati.o: src/PezziDerivati.cpp.o
 
@@ -276,12 +316,16 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... game"
+	@echo "... rebuild_cache"
+	@echo "... helperfunctions"
 	@echo "... pezziderivati"
 	@echo "... scacchiera"
 	@echo "... pezzo"
+	@echo "... src/HelperFunctions.o"
+	@echo "... src/HelperFunctions.i"
+	@echo "... src/HelperFunctions.s"
 	@echo "... src/PezziDerivati.o"
 	@echo "... src/PezziDerivati.i"
 	@echo "... src/PezziDerivati.s"

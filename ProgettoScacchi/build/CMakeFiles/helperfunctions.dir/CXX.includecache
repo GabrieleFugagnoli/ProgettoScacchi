@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/HelperFunctions.h
+string
+-
+Pezzo.h
+-
+
+../include/Pezzo.h
+Scacchiera.h
+../include/Scacchiera.h
+
+../include/Scacchiera.h
+ostream
+-
+vector
+-
+Pezzo.h
+../include/Pezzo.h
+
+/home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/src/HelperFunctions.cpp
+HelperFunctions.h
+/home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/src/HelperFunctions.h
+string
+-
+Pezzo.h
+-
+

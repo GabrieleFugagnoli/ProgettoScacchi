@@ -17,7 +17,8 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					]
 				}
 			],
@@ -35,7 +36,8 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					]
 				}
 			],
@@ -44,8 +46,15 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "game::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-game-Debug-257a88679611926d05cf.json",
+					"jsonFile" : "target-game-Debug-63f51524e79bfa0baf40.json",
 					"name" : "game",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "helperfunctions::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-helperfunctions-Debug-34f7229d95b0cebd7ef6.json",
+					"name" : "helperfunctions",
 					"projectIndex" : 0
 				},
 				{

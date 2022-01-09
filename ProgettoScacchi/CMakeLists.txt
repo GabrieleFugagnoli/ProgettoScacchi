@@ -19,6 +19,11 @@ add_library(pezziderivati
 	src/PezziDerivati.cpp
 )
 
+add_library(helperfunctions
+	include/HelperFunctions.h
+	src/HelperFunctions.cpp
+)
+
 add_executable(game
 	src/game.cpp
 )
@@ -26,4 +31,6 @@ add_executable(game
 target_link_libraries(game
 	pezzo
 	scacchiera
+	pezziderivati
+	helperfunctions
 )

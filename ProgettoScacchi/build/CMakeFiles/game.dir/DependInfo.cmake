@@ -17,6 +17,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles/pezzo.dir/DependInfo.cmake"
   "/home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles/scacchiera.dir/DependInfo.cmake"
+  "/home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles/pezziderivati.dir/DependInfo.cmake"
+  "/home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles/helperfunctions.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

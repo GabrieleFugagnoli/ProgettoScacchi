@@ -46,6 +46,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/game.dir/DependInfo.cmake"
+  "CMakeFiles/helperfunctions.dir/DependInfo.cmake"
   "CMakeFiles/pezziderivati.dir/DependInfo.cmake"
   "CMakeFiles/scacchiera.dir/DependInfo.cmake"
   "CMakeFiles/pezzo.dir/DependInfo.cmake"

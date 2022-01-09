@@ -81,6 +81,8 @@ game: CMakeFiles/game.dir/src/game.cpp.o
 game: CMakeFiles/game.dir/build.make
 game: libpezzo.a
 game: libscacchiera.a
+game: libpezziderivati.a
+game: libhelperfunctions.a
 game: CMakeFiles/game.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable game"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/game.dir/link.txt --verbose=$(VERBOSE)

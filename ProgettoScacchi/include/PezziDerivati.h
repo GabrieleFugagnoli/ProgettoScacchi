@@ -5,6 +5,8 @@
 #include "Pezzo.h"
 #include "Scacchiera.h"
 
+//Dichiarazione delle classi derivate da Pezzo che rappresentano i singoli pezzi in gioco
+
 class Cavallo : public Pezzo{
 
     private:
@@ -78,14 +80,18 @@ class Pedone : public Pezzo{
     bool isLegal(Scacchiera&& board, Posizione& end) const;
 };
 
+//Dichiarazione della classe di controllo Empty che ci servira' a controllare le caselle vuote della scacchiera
 class Empty : public Pezzo{
 
     private:
     char name;
+    class EmptyField{};
 
     public:
     Empty()
     : name{'E'} {}
+    //Aggiungo un errore nel caso nonostante i controlli venga richiesto il colore di Empty
+    bool isWhite() const {throw EmptyField();};
 };
 
 
