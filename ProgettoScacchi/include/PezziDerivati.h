@@ -84,18 +84,20 @@ class Pedone : public Pezzo{
 class Empty : public Pezzo{
 
     private:
+    bool white;
+    Posizione pos;
     char name;
-    class EmptyField{};
 
     public:
     Empty()
-    : name{'E'} {}
+    : white{false}, name{' '}, pos{} {}
     //Aggiungo un errore nel caso nonostante i controlli venga richiesto il colore di Empty
-    bool isWhite() const {throw EmptyField();};
+    bool isWhite() const {throw EmptyField();}
+
+    bool isLegal(Scacchiera&& board, Posizione& end) const;
+
+    class EmptyField{};
 };
-
-
-
 
 
 #endif

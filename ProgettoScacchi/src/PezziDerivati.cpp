@@ -89,9 +89,9 @@ bool Pedone::isLegal(Scacchiera&& board, Posizione& end) const{
 
     int delta_x = abs(pos.get_x() - end.get_x());
     int delta_y = abs(pos.get_y() - end.get_y());
-    if((board.get_Pezzo(end).getName() == 'E') && (delta_x == 0) && (delta_y == 1)) return true;
-    if((board.get_Pezzo(end).getName() == 'E') && (!hasMoved) && (delta_x == 0) && (delta_y == 2)) return true;
-    if((board.get_Pezzo(end).getName() != 'E') && (delta_x == 1) && (delta_y == 1)) return true;
+    if((board.get_Pezzo(end).get_Name() == 'E') && (delta_x == 0) && (delta_y == 1)) return true;
+    if((board.get_Pezzo(end).get_Name() == 'E') && (!hasMoved) && (delta_x == 0) && (delta_y == 2)) return true;
+    if((board.get_Pezzo(end).get_Name() != 'E') && (delta_x == 1) && (delta_y == 1)) return true;
     return false;
 }
 

@@ -22,10 +22,8 @@ class Scacchiera{
 
     public:
         Scacchiera(int x, int y) 
-            : x_MAX{x}, y_MAX{y} 
-        {}
+        : x_MAX{x}, y_MAX{y} {}
 
-		
         Pezzo& get_Pezzo(Posizione& pos);
         void set_position(Posizione& posInitial, Posizione& posFinal, Pezzo& pezzo);
         friend std::ostream& operator<<(std::ostream& os, Scacchiera& scac);

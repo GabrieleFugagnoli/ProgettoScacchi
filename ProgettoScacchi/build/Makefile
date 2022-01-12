@@ -48,18 +48,18 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi
+CMAKE_SOURCE_DIR = /home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/build
+CMAKE_BINARY_DIR = /home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi/build
 
 #=============================================================================
 # Targets provided globally by CMake.
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/cmake-gui -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles /home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles /home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -163,6 +163,19 @@ scacchiera/fast:
 .PHONY : scacchiera/fast
 
 #=============================================================================
+# Target rules for targets named casella
+
+# Build rule for target.
+casella: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 casella
+.PHONY : casella
+
+# fast build rule for target.
+casella/fast:
+	$(MAKE) -f CMakeFiles/casella.dir/build.make CMakeFiles/casella.dir/build
+.PHONY : casella/fast
+
+#=============================================================================
 # Target rules for targets named pezzo
 
 # Build rule for target.
@@ -174,6 +187,33 @@ pezzo: cmake_check_build_system
 pezzo/fast:
 	$(MAKE) -f CMakeFiles/pezzo.dir/build.make CMakeFiles/pezzo.dir/build
 .PHONY : pezzo/fast
+
+src/Casella.o: src/Casella.cpp.o
+
+.PHONY : src/Casella.o
+
+# target to build an object file
+src/Casella.cpp.o:
+	$(MAKE) -f CMakeFiles/casella.dir/build.make CMakeFiles/casella.dir/src/Casella.cpp.o
+.PHONY : src/Casella.cpp.o
+
+src/Casella.i: src/Casella.cpp.i
+
+.PHONY : src/Casella.i
+
+# target to preprocess a source file
+src/Casella.cpp.i:
+	$(MAKE) -f CMakeFiles/casella.dir/build.make CMakeFiles/casella.dir/src/Casella.cpp.i
+.PHONY : src/Casella.cpp.i
+
+src/Casella.s: src/Casella.cpp.s
+
+.PHONY : src/Casella.s
+
+# target to generate assembly for a file
+src/Casella.cpp.s:
+	$(MAKE) -f CMakeFiles/casella.dir/build.make CMakeFiles/casella.dir/src/Casella.cpp.s
+.PHONY : src/Casella.cpp.s
 
 src/HelperFunctions.o: src/HelperFunctions.cpp.o
 
@@ -322,7 +362,11 @@ help:
 	@echo "... helperfunctions"
 	@echo "... pezziderivati"
 	@echo "... scacchiera"
+	@echo "... casella"
 	@echo "... pezzo"
+	@echo "... src/Casella.o"
+	@echo "... src/Casella.i"
+	@echo "... src/Casella.s"
 	@echo "... src/HelperFunctions.o"
 	@echo "... src/HelperFunctions.i"
 	@echo "... src/HelperFunctions.s"

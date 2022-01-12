@@ -9,6 +9,11 @@ add_library(pezzo
 	src/Pezzo.cpp
 )
 
+add_library(casella
+	include/Casella.h
+	src/Casella.cpp
+)
+
 add_library(scacchiera
 	include/Scacchiera.h
 	src/Scacchiera.cpp
@@ -30,6 +35,7 @@ add_executable(game
 
 target_link_libraries(game
 	pezzo
+	casella
 	scacchiera
 	pezziderivati
 	helperfunctions
