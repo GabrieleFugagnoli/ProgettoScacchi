@@ -81,9 +81,9 @@ clean: CMakeFiles/pezzo.dir/clean
 # Target rules for target CMakeFiles/game.dir
 
 # All Build rule for target.
+CMakeFiles/game.dir/all: CMakeFiles/pezzo.dir/all
 CMakeFiles/game.dir/all: CMakeFiles/casella.dir/all
 CMakeFiles/game.dir/all: CMakeFiles/scacchiera.dir/all
-CMakeFiles/game.dir/all: CMakeFiles/pezzo.dir/all
 CMakeFiles/game.dir/all: CMakeFiles/helperfunctions.dir/all
 CMakeFiles/game.dir/all: CMakeFiles/pezziderivati.dir/all
 	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/depend

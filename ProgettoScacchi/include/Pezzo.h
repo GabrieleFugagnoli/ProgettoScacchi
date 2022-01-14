@@ -14,8 +14,8 @@ class Posizione{
         int y;
 
     public:
-        Posizione();
-        Posizione(int a, int b)  //non ho messo controlli sulle coordinate perche' saranno fatti nel main
+
+        Posizione(int a = 0, int b = 0)  //non ho messo controlli sulle coordinate perche' saranno fatti nel main
 	    : y{a}, x{b} {}
 
 		void set_pos(int a, int b) { y = a; x = b; }
@@ -28,7 +28,7 @@ class Posizione{
 
 class Pezzo{
 
-    private:
+    protected:
 
         bool white;     //determina il colore del pezzo
         char name;      //rappresenta il tipo di pezzo nella scacchiera
@@ -44,14 +44,11 @@ class Pezzo{
         //ma non sono sicuro servirà perchè tutti i pezzi dovrebbero
         //avere le stesse variabili membro
         Pezzo(const Pezzo&) = delete;
-        //Pezzo& operator=(const Pezzo&) = delete;
+        Pezzo& operator=(const Pezzo&) = delete;
 
         bool isWhite() const { return white; }
-
         char get_Name() const { return name; }
-
         virtual bool isLegal(Scacchiera&& board, Posizione& end) const;
-
 };
 
 #endif

@@ -3,7 +3,6 @@
 #ifndef PEZZIDERIVATI_H
 #define PEZZIDERIVATI_H
 #include "Pezzo.h"
-#include "Scacchiera.h"
 
 //Dichiarazione delle classi derivate da Pezzo che rappresentano i singoli pezzi in gioco
 
@@ -92,12 +91,10 @@ class Empty : public Pezzo{
     Empty()
     : white{false}, name{' '}, pos{} {}
     //Aggiungo un errore nel caso nonostante i controlli venga richiesto il colore di Empty
-    bool isWhite() const {throw EmptyField();}
-
+    bool isWhite() const { throw EmptyField(); }
     bool isLegal(Scacchiera&& board, Posizione& end) const;
 
     class EmptyField{};
 };
-
 
 #endif

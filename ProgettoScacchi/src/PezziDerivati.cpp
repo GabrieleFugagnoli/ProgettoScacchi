@@ -94,7 +94,3 @@ bool Pedone::isLegal(Scacchiera&& board, Posizione& end) const{
     if((board.get_Pezzo(end).get_Name() != 'E') && (delta_x == 1) && (delta_y == 1)) return true;
     return false;
 }
-
-
-
-

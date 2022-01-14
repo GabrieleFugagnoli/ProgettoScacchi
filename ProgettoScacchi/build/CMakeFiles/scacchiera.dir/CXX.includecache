@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+../include/PezziDerivati.h
+Pezzo.h
+../include/Pezzo.h
+
 ../include/Pezzo.h
 Scacchiera.h
 ../include/Scacchiera.h
@@ -21,4 +25,6 @@ Pezzo.h
 /home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi/src/Scacchiera.cpp
 Scacchiera.h
 /home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi/src/Scacchiera.h
+PezziDerivati.h
+/home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi/src/PezziDerivati.h
 

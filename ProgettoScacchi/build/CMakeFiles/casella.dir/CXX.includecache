@@ -13,8 +13,6 @@ PezziDerivati.h
 ../include/PezziDerivati.h
 Pezzo.h
 ../include/Pezzo.h
-Scacchiera.h
-../include/Scacchiera.h
 
 ../include/Pezzo.h
 Scacchiera.h

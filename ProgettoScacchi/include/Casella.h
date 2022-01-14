@@ -1,3 +1,7 @@
+#ifndef CASELLA_H
+#define CASELLA_H
+/*
+
 #include "PezziDerivati.h"
 
 class Casella{
@@ -19,3 +23,5 @@ class Casella{
     Pezzo& get_Pezzo() { return pez; }
     void set_Pezzo(Pezzo& pezzo) { pez = pezzo; }
 };
+*/
+#endif
