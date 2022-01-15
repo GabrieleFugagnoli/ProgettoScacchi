@@ -23,7 +23,7 @@
 					]
 				}
 			],
-			"name" : "",
+			"name" : "Debug",
 			"projects" : 
 			[
 				{
@@ -48,42 +48,42 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "casella::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-casella-f47bcc3eda68ca7c6972.json",
+					"jsonFile" : "target-casella-Debug-d621ca61dd2fd996ecc4.json",
 					"name" : "casella",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "game::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-game-d5983b89e818f4aac242.json",
+					"jsonFile" : "target-game-Debug-fcf88c92b5f334d7a739.json",
 					"name" : "game",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "helperfunctions::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-helperfunctions-c9dbd3acddd1ca2f50e5.json",
+					"jsonFile" : "target-helperfunctions-Debug-aeb52430b1d101f6fae3.json",
 					"name" : "helperfunctions",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "pezziderivati::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-pezziderivati-ed6e6a90ef0d3c80e83a.json",
+					"jsonFile" : "target-pezziderivati-Debug-375dc8772f1f93cd5f19.json",
 					"name" : "pezziderivati",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "pezzo::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-pezzo-9ddd3dedd5e1765aafa4.json",
+					"jsonFile" : "target-pezzo-Debug-21e498acc2c133a41a5a.json",
 					"name" : "pezzo",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "scacchiera::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-scacchiera-4090ade64626dac540fa.json",
+					"jsonFile" : "target-scacchiera-Debug-7f8a38bd5e97078b03d8.json",
 					"name" : "scacchiera",
 					"projectIndex" : 0
 				}

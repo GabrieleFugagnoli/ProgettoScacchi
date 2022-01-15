@@ -4,5 +4,6 @@
 CMakeFiles/pezziderivati.dir/src/PezziDerivati.cpp.o: ../include/Casella.h
 CMakeFiles/pezziderivati.dir/src/PezziDerivati.cpp.o: ../include/PezziDerivati.h
 CMakeFiles/pezziderivati.dir/src/PezziDerivati.cpp.o: ../include/Pezzo.h
+CMakeFiles/pezziderivati.dir/src/PezziDerivati.cpp.o: ../include/Scacchiera.h
 CMakeFiles/pezziderivati.dir/src/PezziDerivati.cpp.o: ../src/PezziDerivati.cpp
 

@@ -2,6 +2,7 @@
 #include  "PezziDerivati.h"
 #include "Pezzo.h"
 #include "Casella.h"
+#include "Scacchiera.h"
 #include <cstdlib>
 
 
@@ -37,6 +38,16 @@ bool Torre::isLegal(Scacchiera&& board, Casella&& start, Casella&& end) const{
     int delta_x = abs(start.get_X() - end.get_X());
     int delta_y = abs(start.get_Y() - end.get_Y());
     if(delta_x == 0 && delta_y > 0){
+        if((start.get_Y() - end.get_Y())<0){//sta andando su
+            for(int i = start.get_Y()+1; i<end.get_Y(); i++){
+                if(!(board.get_Casella(start.get_X(), i).Empty())) return false;
+            }
+        } 
+        else{ // sta andando giu'
+            for(int i = start.get_Y()-1; i>end.get_Y(); i--){
+                if(!(board.get_Casella(start.get_X(), i).Empty())) return false;
+            }
+        }
         return true;
     }
     if(delta_x > 0 && delta_y == 0){

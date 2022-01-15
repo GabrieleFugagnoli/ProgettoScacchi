@@ -81,11 +81,11 @@ clean: CMakeFiles/pezzo.dir/clean
 # Target rules for target CMakeFiles/game.dir
 
 # All Build rule for target.
-CMakeFiles/game.dir/all: CMakeFiles/pezzo.dir/all
 CMakeFiles/game.dir/all: CMakeFiles/helperfunctions.dir/all
-CMakeFiles/game.dir/all: CMakeFiles/scacchiera.dir/all
 CMakeFiles/game.dir/all: CMakeFiles/pezziderivati.dir/all
+CMakeFiles/game.dir/all: CMakeFiles/scacchiera.dir/all
 CMakeFiles/game.dir/all: CMakeFiles/casella.dir/all
+CMakeFiles/game.dir/all: CMakeFiles/pezzo.dir/all
 	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/depend
 	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles --progress-num=3,4 "Built target game"

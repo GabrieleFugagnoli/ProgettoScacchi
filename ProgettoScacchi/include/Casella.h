@@ -26,6 +26,8 @@ class Casella{
     int get_Y(){ return y; }
 
     void set_Pezzo(Pezzo& pezzo) { piece = pezzo; }
+
+    bool Empty(){return isEmpty; }
     
 };
 
