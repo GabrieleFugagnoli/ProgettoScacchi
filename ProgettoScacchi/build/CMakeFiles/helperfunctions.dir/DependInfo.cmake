@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/src/HelperFunctions.cpp" "/home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles/helperfunctions.dir/src/HelperFunctions.cpp.o"
+  "/home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi/src/HelperFunctions.cpp" "/home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles/helperfunctions.dir/src/HelperFunctions.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

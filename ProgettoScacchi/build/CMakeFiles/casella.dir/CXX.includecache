@@ -6,27 +6,13 @@
 
 #IncludeRegexTransform: 
 
-../include/PezziDerivati.h
+../include/Casella.h
 Pezzo.h
 ../include/Pezzo.h
 
 ../include/Pezzo.h
 
-../include/Scacchiera.h
-vector
--
-Pezzo.h
-../include/Pezzo.h
-
-/home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/src/Scacchiera.cpp
-iostream
--
-vector
--
-Scacchiera.h
-/home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/src/Scacchiera.h
-Pezzo.h
--
-PezziDerivati.h
-/home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/src/PezziDerivati.h
+/home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi/src/Casella.cpp
+Casella.h
+/home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi/src/Casella.h
 

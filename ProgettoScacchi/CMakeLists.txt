@@ -10,8 +10,8 @@ add_library(pezzo
 )
 
 add_library(casella
-	include/Scacchiera.h
-	src/Scacchiera.cpp
+	include/Casella.h
+	src/Casella.cpp
 )
 
 add_library(scacchiera

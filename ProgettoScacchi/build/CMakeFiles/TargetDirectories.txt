@@ -1,8 +1,8 @@
-/home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles/edit_cache.dir
-/home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles/game.dir
-/home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles/rebuild_cache.dir
-/home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles/helperfunctions.dir
-/home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles/pezziderivati.dir
-/home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles/scacchiera.dir
-/home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles/casella.dir
-/home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles/pezzo.dir
+/home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles/edit_cache.dir
+/home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles/game.dir
+/home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles/rebuild_cache.dir
+/home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles/helperfunctions.dir
+/home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles/pezziderivati.dir
+/home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles/scacchiera.dir
+/home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles/casella.dir
+/home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles/pezzo.dir

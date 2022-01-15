@@ -2,8 +2,6 @@
 #ifndef PEZZO_H
 #define PEZZO_H
 
-
-
 class Scacchiera;
 
 class Pezzo{
@@ -12,9 +10,9 @@ class Pezzo{
 
         bool white;     //determina il colore del pezzo
         char name;      //rappresenta il tipo di pezzo nella scacchiera
-        //rappresenta la posizione del pezzo nella scacchiera
 
     public:
+
         Pezzo();
         Pezzo(bool w);
         
@@ -28,11 +26,8 @@ class Pezzo{
         bool isWhite() const { return white; }
 
         char get_Name() const { return name; }
-        
-        
 
         virtual bool isLegal(Scacchiera&& board) const;
-
 };
 
 #endif

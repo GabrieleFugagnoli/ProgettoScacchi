@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/casella.dir/src/Scacchiera.cpp.o"
+  "CMakeFiles/casella.dir/src/Casella.cpp.o"
   "libcasella.a"
   "libcasella.pdb"
 )

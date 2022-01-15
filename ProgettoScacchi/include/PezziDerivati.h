@@ -1,15 +1,10 @@
 //Gabriele Fugagnoli
-
 #ifndef PEZZIDERIVATI_H
 #define PEZZIDERIVATI_H
+
 #include "Pezzo.h"
 
-class Pezzo;
-class Scacchiera;
-
 //Dichiarazione delle classi derivate da Pezzo che rappresentano i singoli pezzi in gioco
-
-
 
 class Cavallo :  public Pezzo{
 
@@ -77,7 +72,5 @@ class Pedone : public Pezzo{
     Pedone(bool w);
     bool isLegal(Scacchiera&& board,bool hasM) const;
 };
-
-
 
 #endif

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi
+CMAKE_SOURCE_DIR = /home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/build
+CMAKE_BINARY_DIR = /home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/casella.dir/depend.make
@@ -57,30 +57,30 @@ include CMakeFiles/casella.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/casella.dir/flags.make
 
-CMakeFiles/casella.dir/src/Scacchiera.cpp.o: CMakeFiles/casella.dir/flags.make
-CMakeFiles/casella.dir/src/Scacchiera.cpp.o: ../src/Scacchiera.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/casella.dir/src/Scacchiera.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/casella.dir/src/Scacchiera.cpp.o -c /home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/src/Scacchiera.cpp
+CMakeFiles/casella.dir/src/Casella.cpp.o: CMakeFiles/casella.dir/flags.make
+CMakeFiles/casella.dir/src/Casella.cpp.o: ../src/Casella.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/casella.dir/src/Casella.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/casella.dir/src/Casella.cpp.o -c /home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi/src/Casella.cpp
 
-CMakeFiles/casella.dir/src/Scacchiera.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/casella.dir/src/Scacchiera.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/src/Scacchiera.cpp > CMakeFiles/casella.dir/src/Scacchiera.cpp.i
+CMakeFiles/casella.dir/src/Casella.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/casella.dir/src/Casella.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi/src/Casella.cpp > CMakeFiles/casella.dir/src/Casella.cpp.i
 
-CMakeFiles/casella.dir/src/Scacchiera.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/casella.dir/src/Scacchiera.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/src/Scacchiera.cpp -o CMakeFiles/casella.dir/src/Scacchiera.cpp.s
+CMakeFiles/casella.dir/src/Casella.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/casella.dir/src/Casella.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi/src/Casella.cpp -o CMakeFiles/casella.dir/src/Casella.cpp.s
 
 # Object files for target casella
 casella_OBJECTS = \
-"CMakeFiles/casella.dir/src/Scacchiera.cpp.o"
+"CMakeFiles/casella.dir/src/Casella.cpp.o"
 
 # External object files for target casella
 casella_EXTERNAL_OBJECTS =
 
-libcasella.a: CMakeFiles/casella.dir/src/Scacchiera.cpp.o
+libcasella.a: CMakeFiles/casella.dir/src/Casella.cpp.o
 libcasella.a: CMakeFiles/casella.dir/build.make
 libcasella.a: CMakeFiles/casella.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libcasella.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libcasella.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/casella.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/casella.dir/link.txt --verbose=$(VERBOSE)
 
@@ -94,6 +94,6 @@ CMakeFiles/casella.dir/clean:
 .PHONY : CMakeFiles/casella.dir/clean
 
 CMakeFiles/casella.dir/depend:
-	cd /home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi /home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi /home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/build /home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/build /home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles/casella.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi /home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi /home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi/build /home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi/build /home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles/casella.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/casella.dir/depend
 

@@ -2,7 +2,6 @@
 #include <iostream>
 #include <vector>
 #include "Scacchiera.h"
-#include <Pezzo.h>
 #include "PezziDerivati.h"
 
 using namespace std;
