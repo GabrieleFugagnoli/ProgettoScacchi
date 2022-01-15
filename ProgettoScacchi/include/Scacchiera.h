@@ -16,7 +16,7 @@ class Scacchiera{
     public:
         Scacchiera();
 
-	
+        Casella& get_Casella(int x, int y){return scac[x][y]; };
         //Pezzo& get_Piece(Casella& casella){ return casella.get_Pezzo; };
         //void set_position(Posizione& posInitial, Posizione& posFinal, Pezzo& pezzo);
         //void print(Scacchiera& scac);

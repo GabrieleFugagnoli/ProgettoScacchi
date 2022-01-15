@@ -1,1 +1,1 @@
-/usr/bin/c++    -rdynamic CMakeFiles/game.dir/src/game.cpp.o  -o game  libpezzo.a libcasella.a libscacchiera.a libpezziderivati.a libhelperfunctions.a 
+/bin/x86_64-linux-gnu-g++-9    -rdynamic CMakeFiles/game.dir/src/game.cpp.o  -o game  libpezzo.a libcasella.a libscacchiera.a libpezziderivati.a libhelperfunctions.a 

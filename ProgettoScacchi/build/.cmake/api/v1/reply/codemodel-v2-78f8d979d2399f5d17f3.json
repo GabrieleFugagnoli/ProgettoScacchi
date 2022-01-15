@@ -1,0 +1,104 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "scacchiera",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "casella::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-casella-f47bcc3eda68ca7c6972.json",
+					"name" : "casella",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "game::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-game-d5983b89e818f4aac242.json",
+					"name" : "game",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "helperfunctions::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-helperfunctions-c9dbd3acddd1ca2f50e5.json",
+					"name" : "helperfunctions",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pezziderivati::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pezziderivati-ed6e6a90ef0d3c80e83a.json",
+					"name" : "pezziderivati",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pezzo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pezzo-9ddd3dedd5e1765aafa4.json",
+					"name" : "pezzo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scacchiera::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scacchiera-4090ade64626dac540fa.json",
+					"name" : "scacchiera",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/build",
+		"source" : "/home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

@@ -3,6 +3,7 @@
 #define PEZZIDERIVATI_H
 
 #include "Pezzo.h"
+#include "Casella.h"
 
 //Dichiarazione delle classi derivate da Pezzo che rappresentano i singoli pezzi in gioco
 
@@ -14,7 +15,7 @@ class Cavallo :  public Pezzo{
 
     public:
     Cavallo(bool w);
-    bool isLegal(Scacchiera&& board) const;
+    bool isLegal(Scacchiera&& board, Casella&& start, Casella&& end) const;
 };
 
 class Alfiere : public Pezzo{
@@ -25,7 +26,7 @@ class Alfiere : public Pezzo{
 
     public:
     Alfiere(bool w);
-    bool isLegal(Scacchiera&& board) const;
+    bool isLegal(Scacchiera&& board, Casella&& start, Casella&& end) const;
 };
 
 class Torre : public Pezzo{
@@ -36,7 +37,7 @@ class Torre : public Pezzo{
 
     public:
     Torre(bool w);
-    bool isLegal(Scacchiera&& board) const;
+    bool isLegal(Scacchiera&& board, Casella&& start, Casella&& end) const;
 };
 
 class Re : public Pezzo{
@@ -47,7 +48,7 @@ class Re : public Pezzo{
 
     public:
     Re(bool w);
-    bool isLegal(Scacchiera&& board) const;
+    bool isLegal(Scacchiera&& board, Casella&& start, Casella&& end) const;
 };
 
 class Regina : public Pezzo{
@@ -58,7 +59,7 @@ class Regina : public Pezzo{
 
     public:
     Regina(bool w);
-    bool isLegal(Scacchiera&& board) const;
+    bool isLegal(Scacchiera&& board, Casella&& start, Casella&& end) const;
 };
 
 class Pedone : public Pezzo{
@@ -70,7 +71,7 @@ class Pedone : public Pezzo{
 
     public:
     Pedone(bool w);
-    bool isLegal(Scacchiera&& board,bool hasM) const;
+    bool isLegal(Scacchiera&& board, Casella&& start, Casella&& end) const;
 };
 
 #endif

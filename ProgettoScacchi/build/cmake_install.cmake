@@ -1,4 +1,4 @@
-# Install script for directory: /home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi
+# Install script for directory: /home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
