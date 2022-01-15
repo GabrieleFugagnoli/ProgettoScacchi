@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi
+CMAKE_SOURCE_DIR = /home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi/build
+CMAKE_BINARY_DIR = /home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/pezziderivati.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/pezziderivati.dir/flags.make
 
 CMakeFiles/pezziderivati.dir/src/PezziDerivati.cpp.o: CMakeFiles/pezziderivati.dir/flags.make
 CMakeFiles/pezziderivati.dir/src/PezziDerivati.cpp.o: ../src/PezziDerivati.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pezziderivati.dir/src/PezziDerivati.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pezziderivati.dir/src/PezziDerivati.cpp.o -c /home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi/src/PezziDerivati.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pezziderivati.dir/src/PezziDerivati.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pezziderivati.dir/src/PezziDerivati.cpp.o -c /home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/src/PezziDerivati.cpp
 
 CMakeFiles/pezziderivati.dir/src/PezziDerivati.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pezziderivati.dir/src/PezziDerivati.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi/src/PezziDerivati.cpp > CMakeFiles/pezziderivati.dir/src/PezziDerivati.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/src/PezziDerivati.cpp > CMakeFiles/pezziderivati.dir/src/PezziDerivati.cpp.i
 
 CMakeFiles/pezziderivati.dir/src/PezziDerivati.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pezziderivati.dir/src/PezziDerivati.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi/src/PezziDerivati.cpp -o CMakeFiles/pezziderivati.dir/src/PezziDerivati.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/src/PezziDerivati.cpp -o CMakeFiles/pezziderivati.dir/src/PezziDerivati.cpp.s
 
 # Object files for target pezziderivati
 pezziderivati_OBJECTS = \
@@ -80,7 +80,7 @@ pezziderivati_EXTERNAL_OBJECTS =
 libpezziderivati.a: CMakeFiles/pezziderivati.dir/src/PezziDerivati.cpp.o
 libpezziderivati.a: CMakeFiles/pezziderivati.dir/build.make
 libpezziderivati.a: CMakeFiles/pezziderivati.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libpezziderivati.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libpezziderivati.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/pezziderivati.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pezziderivati.dir/link.txt --verbose=$(VERBOSE)
 
@@ -94,6 +94,6 @@ CMakeFiles/pezziderivati.dir/clean:
 .PHONY : CMakeFiles/pezziderivati.dir/clean
 
 CMakeFiles/pezziderivati.dir/depend:
-	cd /home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi /home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi /home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi/build /home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi/build /home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles/pezziderivati.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi /home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi /home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/build /home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/build /home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles/pezziderivati.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/pezziderivati.dir/depend
 

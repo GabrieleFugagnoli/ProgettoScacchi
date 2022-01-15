@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi
+CMAKE_SOURCE_DIR = /home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi/build
+CMAKE_BINARY_DIR = /home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles /home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles /home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -188,33 +188,6 @@ pezzo/fast:
 	$(MAKE) -f CMakeFiles/pezzo.dir/build.make CMakeFiles/pezzo.dir/build
 .PHONY : pezzo/fast
 
-src/Casella.o: src/Casella.cpp.o
-
-.PHONY : src/Casella.o
-
-# target to build an object file
-src/Casella.cpp.o:
-	$(MAKE) -f CMakeFiles/casella.dir/build.make CMakeFiles/casella.dir/src/Casella.cpp.o
-.PHONY : src/Casella.cpp.o
-
-src/Casella.i: src/Casella.cpp.i
-
-.PHONY : src/Casella.i
-
-# target to preprocess a source file
-src/Casella.cpp.i:
-	$(MAKE) -f CMakeFiles/casella.dir/build.make CMakeFiles/casella.dir/src/Casella.cpp.i
-.PHONY : src/Casella.cpp.i
-
-src/Casella.s: src/Casella.cpp.s
-
-.PHONY : src/Casella.s
-
-# target to generate assembly for a file
-src/Casella.cpp.s:
-	$(MAKE) -f CMakeFiles/casella.dir/build.make CMakeFiles/casella.dir/src/Casella.cpp.s
-.PHONY : src/Casella.cpp.s
-
 src/HelperFunctions.o: src/HelperFunctions.cpp.o
 
 .PHONY : src/HelperFunctions.o
@@ -303,6 +276,7 @@ src/Scacchiera.o: src/Scacchiera.cpp.o
 # target to build an object file
 src/Scacchiera.cpp.o:
 	$(MAKE) -f CMakeFiles/scacchiera.dir/build.make CMakeFiles/scacchiera.dir/src/Scacchiera.cpp.o
+	$(MAKE) -f CMakeFiles/casella.dir/build.make CMakeFiles/casella.dir/src/Scacchiera.cpp.o
 .PHONY : src/Scacchiera.cpp.o
 
 src/Scacchiera.i: src/Scacchiera.cpp.i
@@ -312,6 +286,7 @@ src/Scacchiera.i: src/Scacchiera.cpp.i
 # target to preprocess a source file
 src/Scacchiera.cpp.i:
 	$(MAKE) -f CMakeFiles/scacchiera.dir/build.make CMakeFiles/scacchiera.dir/src/Scacchiera.cpp.i
+	$(MAKE) -f CMakeFiles/casella.dir/build.make CMakeFiles/casella.dir/src/Scacchiera.cpp.i
 .PHONY : src/Scacchiera.cpp.i
 
 src/Scacchiera.s: src/Scacchiera.cpp.s
@@ -321,6 +296,7 @@ src/Scacchiera.s: src/Scacchiera.cpp.s
 # target to generate assembly for a file
 src/Scacchiera.cpp.s:
 	$(MAKE) -f CMakeFiles/scacchiera.dir/build.make CMakeFiles/scacchiera.dir/src/Scacchiera.cpp.s
+	$(MAKE) -f CMakeFiles/casella.dir/build.make CMakeFiles/casella.dir/src/Scacchiera.cpp.s
 .PHONY : src/Scacchiera.cpp.s
 
 src/game.o: src/game.cpp.o
@@ -364,9 +340,6 @@ help:
 	@echo "... scacchiera"
 	@echo "... casella"
 	@echo "... pezzo"
-	@echo "... src/Casella.o"
-	@echo "... src/Casella.i"
-	@echo "... src/Casella.s"
 	@echo "... src/HelperFunctions.o"
 	@echo "... src/HelperFunctions.i"
 	@echo "... src/HelperFunctions.s"

@@ -1,17 +1,19 @@
 //Gabriele Fugagnoli
+/*
 #ifndef HELPERFUNCTIONS_H
 #define HELPERFUNCTIONS_H
-
 #include <string>
-#include "Pezzo.h"
+#include "Scacchiera.h"
 using namespace std;
 
 class Invalid_Argument{};
+class Scacchiera;
 
 //Restituisce le coordinate della posizione di partenza della mossa sotto forma di un oggetto di classe Posizione
-Posizione extract_start(string arg);
+Casella extract_start(string arg);
 
 //Restituisce le coordinate della posizione di arrivo della mossa sotto forma di un oggetto di classe Posizione
-Posizione extract_finish(string arg);
+Casella extract_finish(string arg);
 
 #endif
+*/

@@ -1,11 +1,12 @@
 //Gabriele Fugagnoli
+/*
 #include "HelperFunctions.h"
 #include <string>
-#include "Pezzo.h"
+#include "Scacchiera.h"
 using namespace std;
 
 //Restituisce le coordinate della posizione di partenza della mossa sotto forma di un oggetto di classe Posizione
-Posizione extract_start(string arg){
+Casella extract_start(string arg){
     const char firstCoordinate = arg[0];
     int x;
     if(firstCoordinate == 'a' || firstCoordinate == 'A') x = 1;
@@ -19,12 +20,11 @@ Posizione extract_start(string arg){
     else throw Invalid_Argument();
 
     int y = arg[1] - '0';
-
-    return Posizione(x, y);
+    return Scacchiera.at(x).at(y);
 }
 
 //Restituisce le coordinate della posizione di arrivo della mossa sotto forma di un oggetto di classe Posizione
-Posizione extract_finish(string arg){
+Casella extract_finish(string arg){
     const char firstCoordinate = arg[3];
     int x;
     if(firstCoordinate == 'a' || firstCoordinate == 'A') x = 1;
@@ -39,5 +39,6 @@ Posizione extract_finish(string arg){
 
     int y = arg[4] - '0';
 
-    return Posizione(x, y);
+    return Scacchiera[x][y];
 }
+*/

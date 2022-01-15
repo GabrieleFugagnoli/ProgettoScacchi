@@ -11,20 +11,12 @@ Pezzo.h
 ../include/Pezzo.h
 
 ../include/Pezzo.h
-Scacchiera.h
-../include/Scacchiera.h
 
-../include/Scacchiera.h
-ostream
--
-vector
--
-Pezzo.h
-../include/Pezzo.h
-
-/home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi/src/PezziDerivati.cpp
+/home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/src/PezziDerivati.cpp
 PezziDerivati.h
-/home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi/src/PezziDerivati.h
+/home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/src/PezziDerivati.h
+Pezzo.h
+-
 cstdlib
 -
 

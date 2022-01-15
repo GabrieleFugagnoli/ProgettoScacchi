@@ -9,26 +9,22 @@
 ../include/HelperFunctions.h
 string
 -
-Pezzo.h
-../include/Pezzo.h
-
-../include/Pezzo.h
 Scacchiera.h
 ../include/Scacchiera.h
 
+../include/Pezzo.h
+
 ../include/Scacchiera.h
-ostream
--
 vector
 -
 Pezzo.h
 ../include/Pezzo.h
 
-/home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi/src/HelperFunctions.cpp
+/home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/src/HelperFunctions.cpp
 HelperFunctions.h
-/home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi/src/HelperFunctions.h
+/home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/src/HelperFunctions.h
 string
 -
-Pezzo.h
-/home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi/src/Pezzo.h
+Scacchiera.h
+/home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/src/Scacchiera.h
 

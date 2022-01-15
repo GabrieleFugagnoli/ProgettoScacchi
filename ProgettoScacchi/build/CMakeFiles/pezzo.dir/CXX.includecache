@@ -6,19 +6,15 @@
 
 #IncludeRegexTransform: 
 
-../include/Pezzo.h
-Scacchiera.h
-../include/Scacchiera.h
-
-../include/Scacchiera.h
-ostream
--
-vector
--
+../include/PezziDerivati.h
 Pezzo.h
 ../include/Pezzo.h
 
-/home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi/src/Pezzo.cpp
+../include/Pezzo.h
+
+/home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/src/Pezzo.cpp
 Pezzo.h
-/home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi/src/Pezzo.h
+/home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/src/Pezzo.h
+PezziDerivati.h
+-
 

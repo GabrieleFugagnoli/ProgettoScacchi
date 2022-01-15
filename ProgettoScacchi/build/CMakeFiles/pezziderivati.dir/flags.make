@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi/include 
+CXX_INCLUDES = -I/home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/include 
 
