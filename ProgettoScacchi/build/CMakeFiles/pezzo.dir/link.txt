@@ -1,2 +1,2 @@
-/bin/ar qc libpezzo.a  CMakeFiles/pezzo.dir/src/Pezzo.cpp.o
-/bin/ranlib libpezzo.a
+/usr/bin/ar qc libpezzo.a  CMakeFiles/pezzo.dir/src/Pezzo.cpp.o
+/usr/bin/ranlib libpezzo.a

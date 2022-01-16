@@ -1,7 +1,5 @@
 //Gabriele Fugagnoli
 #include  "PezziDerivati.h"
-#include "Pezzo.h"
-#include "Casella.h"
 #include "Scacchiera.h"
 #include <cstdlib>
 
@@ -10,6 +8,7 @@
 //una volta ottenute le coordinate da input e definita la casella 
 //avente tali coordinate, si estrae il pezzo e si definisce che mosse puo fare,
 // quindi sarà da fare in Scacchiera.cpp
+
 Cavallo::Cavallo(bool w)
     : white{w} {
         name = (w) ? 'c' : 'C';
@@ -24,7 +23,6 @@ bool Cavallo::isLegal(Scacchiera&& board, Casella&& start, Casella&& end) const{
     if(delta_x*delta_y == 2) return true;
     else return false; 
 }
-
 
 Torre::Torre(bool w)
     : white{w}{
@@ -117,7 +115,3 @@ bool Pedone::isLegal(Scacchiera&& board, Casella&& start, Casella&& end) const{
     if((start.get_Pezzo().get_Name() != 'E') && (delta_x == 1) && (delta_y == 1)) return true;
     return false;
 }
-
-
-
-

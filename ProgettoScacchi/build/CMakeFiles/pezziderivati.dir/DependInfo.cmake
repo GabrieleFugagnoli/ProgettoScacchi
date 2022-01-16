@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/src/PezziDerivati.cpp" "/home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles/pezziderivati.dir/src/PezziDerivati.cpp.o"
+  "/home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi/src/PezziDerivati.cpp" "/home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles/pezziderivati.dir/src/PezziDerivati.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

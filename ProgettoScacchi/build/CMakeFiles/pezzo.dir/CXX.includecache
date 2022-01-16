@@ -6,21 +6,9 @@
 
 #IncludeRegexTransform: 
 
-../include/Casella.h
-Pezzo.h
 ../include/Pezzo.h
 
-../include/PezziDerivati.h
+/home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi/src/Pezzo.cpp
 Pezzo.h
-../include/Pezzo.h
-Casella.h
-../include/Casella.h
-
-../include/Pezzo.h
-
-/home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/src/Pezzo.cpp
-Pezzo.h
-/home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/src/Pezzo.h
-PezziDerivati.h
--
+/home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi/src/Pezzo.h
 
