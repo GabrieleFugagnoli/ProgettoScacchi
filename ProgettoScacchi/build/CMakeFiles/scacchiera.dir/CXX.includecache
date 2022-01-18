@@ -27,7 +27,7 @@ Casella.h
 /home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi/src/Scacchiera.cpp
 iostream
 -
-vector
+algorithm
 -
 Scacchiera.h
 /home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi/src/Scacchiera.h

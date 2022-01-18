@@ -8,18 +8,17 @@ class Scacchiera{
 
     private:
         std::vector<std::vector<Casella>> scac;
-        const int row=7;
-        const int col=7;
-        //o si fa la 
-        //enum x{ A , B , C , D , E , F , G , H };
+        //const int row=7;
+        //const int col=7;
 
     public:
         Scacchiera();
 
-        Casella& get_Casella (int x, int y) {return scac[x][y]; };
-        //Pezzo& get_Piece(Casella& casella){ return casella.get_Pezzo; };
-        //void set_position(Posizione& posInitial, Posizione& posFinal, Pezzo& pezzo);
-        //void print(Scacchiera& scac);
+        Scacchiera(const Scacchiera& arg);
+
+        Casella& get_Casella (int y, int x) { return scac[y][x]; }
 };
+
+void print(Scacchiera& scac);
 
 #endif

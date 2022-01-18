@@ -3,12 +3,6 @@
 #include "Scacchiera.h"
 #include <cstdlib>
 
-
-//tutti i metodi isLegal devono essere eseguiti in casella,
-//una volta ottenute le coordinate da input e definita la casella 
-//avente tali coordinate, si estrae il pezzo e si definisce che mosse puo fare,
-// quindi sarà da fare in Scacchiera.cpp
-
 Cavallo::Cavallo(bool w)
     : white{w} {
         name = (w) ? 'c' : 'C';
@@ -65,7 +59,6 @@ bool Torre::isLegal(Scacchiera& board, const Casella& start, const Casella& end)
     }
     return false;
 }
-
 
 Alfiere::Alfiere(bool w)
     : white{w} {

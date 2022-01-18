@@ -14,6 +14,7 @@ class Casella{
 
     public:
 
+    Casella();
     //se la casella ha un pezzo allora bisogna mettere nel costruttore il pezzo e
     //false nella variabile isEmpty, se la casella e' vuota mettere
     //true nella variabile isEmpty
@@ -21,22 +22,15 @@ class Casella{
     
     Pezzo& get_Pezzo() const { return piece; }
 
-<<<<<<< HEAD
-    int get_X() { return x; }
-    int get_Y() { return y; }
-
-    void set_Pezzo(Pezzo& pezzo) { piece = pezzo; }
-
-    bool Empty() { return isEmpty; }
-=======
     int get_X() const { return x; }
     int get_Y() const { return y; }
 
     void set_Pezzo(Pezzo& pezzo) { piece = pezzo; }
+    Pezzo& get_Pezzo() { return piece; }
 
     bool Empty() const {return isEmpty; }
->>>>>>> gabriele/rewritederivati
-    
+
+    Casella& operator=(const Casella&);
 };
 
 #endif
