@@ -31,6 +31,8 @@ class Casella{
     bool Empty() const {return isEmpty; }
 
     Casella& operator=(const Casella&);
+
+    bool operator==(const Casella& cas);
 };
 
 #endif

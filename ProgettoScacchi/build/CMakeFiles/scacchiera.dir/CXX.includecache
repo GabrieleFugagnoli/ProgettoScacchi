@@ -11,12 +11,16 @@ Pezzo.h
 ../include/Pezzo.h
 
 ../include/PezziDerivati.h
+list
+-
 Pezzo.h
 ../include/Pezzo.h
 Casella.h
 ../include/Casella.h
 
 ../include/Pezzo.h
+list
+-
 
 ../include/Scacchiera.h
 vector
@@ -24,13 +28,13 @@ vector
 Casella.h
 ../include/Casella.h
 
-/home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi/src/Scacchiera.cpp
+/home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/src/Scacchiera.cpp
 iostream
 -
 algorithm
 -
 Scacchiera.h
-/home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi/src/Scacchiera.h
+/home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/src/Scacchiera.h
 PezziDerivati.h
-/home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi/src/PezziDerivati.h
+/home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/src/PezziDerivati.h
 

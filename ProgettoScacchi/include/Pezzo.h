@@ -1,6 +1,9 @@
 //Eduardo Lotto
 #ifndef PEZZO_H
 #define PEZZO_H
+#include <list>
+
+class Casella;
 
 class Scacchiera;
 
@@ -10,6 +13,7 @@ class Pezzo{
 
         bool white;     //determina il colore del pezzo
         char name;      //rappresenta il tipo di pezzo nella scacchiera
+        std::list <Casella> legalMoves;
 
     public:
 
@@ -27,7 +31,10 @@ class Pezzo{
 
         char get_Name() const { return name; }
 
-        virtual bool isLegal(Scacchiera&& board) const;
+        virtual bool isLegal(Scacchiera& board, const Casella& start, const Casella& end) const;
+
+        void checkLegalMoves (Scacchiera& board, const Casella& start );
+        void recheckLegalMoves (Scacchiera& board, const Casella& pos, const Casella& start, const Casella& end);
 };
 
 #endif

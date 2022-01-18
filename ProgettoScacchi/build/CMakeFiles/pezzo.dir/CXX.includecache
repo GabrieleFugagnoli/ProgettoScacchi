@@ -6,9 +6,25 @@
 
 #IncludeRegexTransform: 
 
+../include/Casella.h
+Pezzo.h
 ../include/Pezzo.h
 
-/home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi/src/Pezzo.cpp
+../include/Pezzo.h
+list
+-
+
+../include/Scacchiera.h
+vector
+-
+Casella.h
+../include/Casella.h
+
+/home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/src/Pezzo.cpp
 Pezzo.h
-/home/eduardo/Desktop/ProgettoScacchi/ProgettoScacchi/src/Pezzo.h
+/home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/src/Pezzo.h
+Scacchiera.h
+/home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/src/Scacchiera.h
+Casella.h
+/home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/src/Casella.h
 
