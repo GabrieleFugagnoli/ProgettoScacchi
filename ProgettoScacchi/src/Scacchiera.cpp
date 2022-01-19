@@ -1,4 +1,4 @@
-//Eduardo Lotto
+/*//Eduardo Lotto
 #include <iostream>
 #include <algorithm>
 #include "Scacchiera.h"
@@ -17,7 +17,7 @@ Scacchiera::Scacchiera()
    Torre t1{true};
    Casella a1{0, 0, t1, false};
    scac[0].push_back(a1);
-/*
+
    Cavallo cav1{true};
    Casella b1{1, 0, cav1, false};
    scac[0][1] = b1;
@@ -120,7 +120,7 @@ Scacchiera::Scacchiera()
    Torre t4{false};
    Casella h8{7, 7, t4, false};
    scac[7][7] = h8;
-   */
+   
 }
 
 Scacchiera::Scacchiera(const Scacchiera& arg)
@@ -143,4 +143,4 @@ void print(Scacchiera& scac)
    }
    cout << endl;
    cout << "  ABCDEFGH" << endl;
-}
+}*/

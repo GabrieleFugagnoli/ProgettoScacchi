@@ -1,4 +1,4 @@
-//Gabriele Fugagnoli
+/*//Gabriele Fugagnoli
 
 #ifndef HELPERFUNCTIONS_H
 #define HELPERFUNCTIONS_H
@@ -18,4 +18,4 @@ int extract_finish_X(string arg);
 int extract_finish_Y(string arg);
 
 #endif
-
+*/

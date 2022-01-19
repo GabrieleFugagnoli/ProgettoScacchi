@@ -1,4 +1,4 @@
-//Stefano Lattenero
+/*//Stefano Lattenero
 #ifndef CASELLA_H
 #define CASELLA_H
 
@@ -39,4 +39,4 @@ class Casella{
     ~Casella(){}
 };
 
-#endif
+#endif*/

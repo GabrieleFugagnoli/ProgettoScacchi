@@ -1,4 +1,4 @@
-//Stefano Lattenero
+/*//Stefano Lattenero
 #ifndef SCACCHIERA_H
 #define SCACCHIERA_H
 #include <vector>
@@ -22,4 +22,4 @@ class Scacchiera{
 void print(Scacchiera& scac);
 
 
-#endif
+#endif*/

@@ -1,4 +1,4 @@
-//Eduardo Lotto
+/*//Eduardo Lotto
 
 #include "Casella.h"
 
@@ -22,4 +22,4 @@ Casella& Casella::operator=(const Casella& cas) noexcept{
      isEmpty = cas.Empty();
      x = cas.get_X();
      y = cas.get_Y();
- }
+ }*/

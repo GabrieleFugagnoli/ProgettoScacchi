@@ -6,39 +6,31 @@
 
 #IncludeRegexTransform: 
 
-../include/Casella.h
-Pezzo.h
-../include/Pezzo.h
-
 ../include/PezziDerivati.h
 list
 -
 Pezzo.h
 ../include/Pezzo.h
-Casella.h
-../include/Casella.h
 
 ../include/Pezzo.h
 list
 -
 
-../include/Scacchiera.h
-vector
--
-Casella.h
-../include/Casella.h
-
-/home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/src/game.cpp
+/home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/src/Pezzo.cpp
+Pezzo.h
+/home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/src/Pezzo.h
 iostream
 -
-Scacchiera.h
-/home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/src/Scacchiera.h
-Casella.h
-/home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/src/Casella.h
+
+/home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/src/game.cpp
+iostream
+-
 Pezzo.h
-/home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/src/Pezzo.h
+/home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/src/Pezzo.h
+Pezzo.cpp
+/home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/src/Pezzo.cpp
 PezziDerivati.h
-/home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/src/PezziDerivati.h
+/home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/src/PezziDerivati.h
 vector
 -
 

@@ -1,4 +1,4 @@
-//Gabriele Fugagnoli
+/*//Gabriele Fugagnoli
 #ifndef PARTITA_H
 #define PARTITA_H
 #include "Scacchiera.h"
@@ -15,4 +15,4 @@ class Partita{
     //void Patta() calcola se ci sono le condizioni per una patta, se si' modifica patta_Possibile
 }
 
-#endif
+#endif*/

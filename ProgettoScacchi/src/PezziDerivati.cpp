@@ -2,15 +2,15 @@
 
 #include "Pezzo.h"
 #include  "PezziDerivati.h"
-#include "Scacchiera.h"
+//#include "Scacchiera.h"
 #include <cstdlib>
 
 Cavallo::Cavallo(bool w)
  : Pezzo(w) {
-        name = (w) ? 'c' : 'C';
+        set_Name((w) ? 'c' : 'C');
     }
 
-bool Cavallo::isLegal(Scacchiera& board, const Casella& start, const Casella& end) const{
+/*bool Cavallo::isLegal(Scacchiera& board, const Casella& start, const Casella& end) const{
 
     if(end.get_Pezzo().isWhite() == white) return false;
 
@@ -19,12 +19,12 @@ bool Cavallo::isLegal(Scacchiera& board, const Casella& start, const Casella& en
     if(delta_x*delta_y == 2) return true;
     else return false; 
 }
-
+*/
 Torre::Torre(bool w)
     : Pezzo(w) {
-        name = (w) ? 't' : 'T';
+        set_Name((w) ? 't' : 'T');
     }
-
+/*
 bool Torre::isLegal(Scacchiera& board, const Casella& start, const Casella& end) const{
 
     if(end.get_Pezzo().isWhite() == white) return false;
@@ -61,12 +61,12 @@ bool Torre::isLegal(Scacchiera& board, const Casella& start, const Casella& end)
     }
     return false;
 }
-
+*/
 Alfiere::Alfiere(bool w)
     : Pezzo(w) {
-        name = (w) ? 'a' : 'A';
+        set_Name((w) ? 'a' : 'A');
     }
-
+/*
 bool Alfiere::isLegal(Scacchiera& board, const Casella& start, const Casella& end) const{
 
     if(end.get_Pezzo().isWhite() == white) return false;
@@ -117,12 +117,12 @@ bool Alfiere::isLegal(Scacchiera& board, const Casella& start, const Casella& en
     }
     return false;
 }
-
+*/
 Re::Re(bool w)
     : Pezzo(w) {
-        name = (w) ? 'r' : 'R';
+        set_Name((w) ? 'r' : 'R');
     }
-
+/*
 bool Re::isLegal(Scacchiera& board, const Casella& start, const Casella& end) const{
 
     if(end.get_Pezzo().isWhite() == white) return false;
@@ -133,12 +133,12 @@ bool Re::isLegal(Scacchiera& board, const Casella& start, const Casella& end) co
     if((delta_x <= 1) && (delta_y <= 1)) return true;
     else return false;
 }    
-
+*/
 Regina::Regina(bool w)
      : Pezzo(w) {
         name = (w) ? 'd' : 'D';
     }
-
+/*
 bool Regina::isLegal(Scacchiera& board, const Casella& start, const Casella& end) const{
 
     if(end.get_Pezzo().isWhite() == white) return false;
@@ -218,13 +218,13 @@ bool Regina::isLegal(Scacchiera& board, const Casella& start, const Casella& end
     }
     return false;
 }
-
+*/
 Pedone::Pedone(bool w)
      : Pezzo(w) {
-         hasMoved = false;
-        name = (w) ? 'p' : 'P';
+        hasMoved = false;
+        set_Name((w) ? 'p' : 'P');
     }
-
+/*
 bool Pedone::isLegal(Scacchiera& board, const Casella& start, const Casella& end) const{
 
     if(end.get_Pezzo().isWhite() == white) return false;
@@ -242,4 +242,4 @@ bool Pedone::isLegal(Scacchiera& board, const Casella& start, const Casella& end
         if((!end.Empty()) && (delta_x == 1) && (delta_y == 1)) return true;
     }
     return false;
-}
+}*/

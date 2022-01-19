@@ -1,4 +1,4 @@
-//Gabriele Fugagnoli
+/*//Gabriele Fugagnoli
 
 #include "HelperFunctions.h"
 #include <string>
@@ -47,5 +47,5 @@ int extract_finish_X(string arg){
 int extract_finish_Y(string arg){
 int y = arg[4] - '0';
 return y;
-}
+}*/
 

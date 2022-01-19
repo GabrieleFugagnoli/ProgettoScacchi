@@ -3,9 +3,9 @@
 #define PEZZO_H
 #include <list>
 
-class Casella;
+//class Casella;
 
-class Scacchiera;
+//class Scacchiera;
 
 class Pezzo{
 
@@ -13,20 +13,22 @@ class Pezzo{
 
         bool white;     //determina il colore del pezzo
         char name;      //rappresenta il tipo di pezzo nella scacchiera
-        std::list <Casella> legalMoves;
+        //std::list <Casella> legalMoves;
         
-    protected:
 
-        Pezzo(bool w);
+
+        
 
     public:
 
-       
+       Pezzo(bool w)
+       	:white{w} {}
+      
         
-       virtual ~Pezzo() =0;
+       //virtual ~Pezzo() =0;
         
 
-        Pezzo& operator=(const Pezzo& cas) noexcept;
+        Pezzo& operator=(const Pezzo& cas) ;
         Pezzo(const Pezzo& cas) noexcept;
         
         //disabilitazione copy constructor e operator=
@@ -39,11 +41,11 @@ class Pezzo{
         bool isWhite() const { return white; }
 
         char get_Name() const { return name; }
+	void set_Name(char a) { name=a; }
+        //virtual bool isLegal(Scacchiera& board, const Casella& start, const Casella& end) const;
 
-        virtual bool isLegal(Scacchiera& board, const Casella& start, const Casella& end) const;
-
-        void checkLegalMoves (Scacchiera& board, const Casella& start );
-        void recheckLegalMoves (Scacchiera& board, const Casella& pos, const Casella& start, const Casella& end);
+        //void checkLegalMoves (Scacchiera& board, const Casella& start );
+        //void recheckLegalMoves (Scacchiera& board, const Casella& pos, const Casella& start, const Casella& end);
 };
-
+void print_piece(Pezzo & pezzo);
 #endif
