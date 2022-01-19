@@ -17,8 +17,9 @@ class Scacchiera{
         Scacchiera(const Scacchiera& arg);
 
         Casella& get_Casella (int y, int x) { return scac[y][x]; }
+	
 };
-
 void print(Scacchiera& scac);
+
 
 #endif

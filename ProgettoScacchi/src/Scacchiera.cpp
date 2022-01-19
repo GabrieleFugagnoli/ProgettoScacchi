@@ -2,7 +2,9 @@
 #include <iostream>
 #include <algorithm>
 #include "Scacchiera.h"
+#include "Casella.h"
 #include "PezziDerivati.h"
+
 
 using namespace std;
 	
@@ -117,6 +119,7 @@ Scacchiera::Scacchiera()
    Torre t4{false};
    Casella h8{7, 7, t4, false};
    scac[7][7] = h8;
+   
 }
 
 Scacchiera::Scacchiera(const Scacchiera& arg)

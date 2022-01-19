@@ -1,4 +1,4 @@
-//Eduardo Lotto
+//Stefano Lattenero
 #ifndef CASELLA_H
 #define CASELLA_H
 
@@ -18,10 +18,12 @@ class Casella{
     //se la casella ha un pezzo allora bisogna mettere nel costruttore il pezzo e
     //false nella variabile isEmpty, se la casella e' vuota mettere
     //true nella variabile isEmpty
-    Casella(int a, int b, Pezzo& pezzo, bool em);
+    Casella(int a, int b, Pezzo& pezzo, bool em)
+    : x{a}, y{b}, piece{pezzo}, isEmpty{em} {}
     
     Pezzo& get_Pezzo() const { return piece; }
 
+	
     int get_X() const { return x; }
     int get_Y() const { return y; }
 

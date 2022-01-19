@@ -10,6 +10,14 @@
 Pezzo.h
 ../include/Pezzo.h
 
+../include/PezziDerivati.h
+list
+-
+Pezzo.h
+../include/Pezzo.h
+Casella.h
+../include/Casella.h
+
 ../include/Pezzo.h
 list
 -
@@ -20,11 +28,17 @@ vector
 Casella.h
 ../include/Casella.h
 
-/home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/src/game.cpp
+/home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/src/game.cpp
 iostream
 -
 Scacchiera.h
-/home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/src/Scacchiera.h
+/home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/src/Scacchiera.h
+Casella.h
+/home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/src/Casella.h
+Pezzo.h
+/home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/src/Pezzo.h
+PezziDerivati.h
+/home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/src/PezziDerivati.h
 vector
 -
 
