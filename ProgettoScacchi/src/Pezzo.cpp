@@ -4,6 +4,11 @@
 #include "Scacchiera.h"
 #include "Casella.h"
 
+Pezzo::Pezzo(bool w)
+: white{w}, name{}, legalMoves{} {}
+    
+
+
 void Pezzo::checkLegalMoves(Scacchiera& board, const Casella& pos ){
     for(int j = 0; j<8; j++){
         for(int i = 0; i<8; i++){
@@ -23,5 +28,15 @@ void Pezzo::recheckLegalMoves (Scacchiera& board, const Casella& pos, const Case
     else legalMoves.remove(board.get_Casella(x,y));
 }
 
-Pezzo::~Pezzo(){}
+Pezzo& Pezzo::operator=(const Pezzo& cas) noexcept{
+    white = cas.isWhite();
+    name = cas.get_Name();
+    legalMoves = cas.legalMoves;
+    return *this;
+}
+Pezzo::Pezzo(const Pezzo& cas) noexcept{
+    white = cas.isWhite();
+    name = cas.get_Name();
+    legalMoves = cas.legalMoves;
+}
 

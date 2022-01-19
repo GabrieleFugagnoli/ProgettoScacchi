@@ -35,6 +35,8 @@ class Casella{
     Casella(const Casella& cas) noexcept;
 
     bool operator==(Casella const&);
+
+    ~Casella(){}
 };
 
 #endif

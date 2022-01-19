@@ -1,11 +1,12 @@
 //Gabriele Fugagnoli
+
+#include "Pezzo.h"
 #include  "PezziDerivati.h"
 #include "Scacchiera.h"
 #include <cstdlib>
 
 Cavallo::Cavallo(bool w)
-    {
-        white = w;
+ : Pezzo(w) {
         name = (w) ? 'c' : 'C';
     }
 
@@ -20,8 +21,7 @@ bool Cavallo::isLegal(Scacchiera& board, const Casella& start, const Casella& en
 }
 
 Torre::Torre(bool w)
-    {
-        white = w;
+    : Pezzo(w) {
         name = (w) ? 't' : 'T';
     }
 
@@ -63,7 +63,7 @@ bool Torre::isLegal(Scacchiera& board, const Casella& start, const Casella& end)
 }
 
 Alfiere::Alfiere(bool w)
-    : white{w}{
+    : Pezzo(w) {
         name = (w) ? 'a' : 'A';
     }
 
@@ -119,7 +119,7 @@ bool Alfiere::isLegal(Scacchiera& board, const Casella& start, const Casella& en
 }
 
 Re::Re(bool w)
-    : white{w}{
+    : Pezzo(w) {
         name = (w) ? 'r' : 'R';
     }
 
@@ -135,7 +135,7 @@ bool Re::isLegal(Scacchiera& board, const Casella& start, const Casella& end) co
 }    
 
 Regina::Regina(bool w)
-    : white{w} {
+     : Pezzo(w) {
         name = (w) ? 'd' : 'D';
     }
 
@@ -220,7 +220,8 @@ bool Regina::isLegal(Scacchiera& board, const Casella& start, const Casella& end
 }
 
 Pedone::Pedone(bool w)
-    : white{w}, hasMoved{false} {
+     : Pezzo(w) {
+         hasMoved = false;
         name = (w) ? 'p' : 'P';
     }
 

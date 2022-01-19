@@ -9,7 +9,9 @@ using namespace std;
 
 int main(){
 	
+	//Torre t1(true);
 	//Scacchiera scac;
+	
 
 	return 0;
 	

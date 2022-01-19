@@ -29,6 +29,8 @@ Casella.h
 ../include/Casella.h
 
 /home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/src/PezziDerivati.cpp
+Pezzo.h
+/home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/src/Pezzo.h
 PezziDerivati.h
 /home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/src/PezziDerivati.h
 Scacchiera.h

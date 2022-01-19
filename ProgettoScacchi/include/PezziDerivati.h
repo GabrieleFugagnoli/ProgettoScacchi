@@ -18,6 +18,7 @@ class Cavallo :  public Pezzo{
     public:
     Cavallo(bool w);
     bool isLegal(Scacchiera& board, const Casella& start, const Casella& end) const;
+    virtual ~Cavallo(){}
     
 };
 
