@@ -1,2 +1,2 @@
-/usr/bin/ar qc libhelperfunctions.a  CMakeFiles/helperfunctions.dir/src/HelperFunctions.cpp.o
-/usr/bin/ranlib libhelperfunctions.a
+/bin/ar qc libhelperfunctions.a  CMakeFiles/helperfunctions.dir/src/HelperFunctions.cpp.o
+/bin/ranlib libhelperfunctions.a

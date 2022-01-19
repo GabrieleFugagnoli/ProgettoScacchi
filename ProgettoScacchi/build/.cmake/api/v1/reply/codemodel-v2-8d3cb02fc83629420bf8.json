@@ -1,0 +1,104 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "scacchiera",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "casella::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-casella-Debug-d621ca61dd2fd996ecc4.json",
+					"name" : "casella",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "game::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-game-Debug-fcf88c92b5f334d7a739.json",
+					"name" : "game",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "helperfunctions::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-helperfunctions-Debug-aeb52430b1d101f6fae3.json",
+					"name" : "helperfunctions",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pezziderivati::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pezziderivati-Debug-375dc8772f1f93cd5f19.json",
+					"name" : "pezziderivati",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pezzo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pezzo-Debug-21e498acc2c133a41a5a.json",
+					"name" : "pezzo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scacchiera::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scacchiera-Debug-7f8a38bd5e97078b03d8.json",
+					"name" : "scacchiera",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/build",
+		"source" : "/home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

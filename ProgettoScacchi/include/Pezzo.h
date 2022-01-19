@@ -14,11 +14,13 @@ class Pezzo{
         bool white;     //determina il colore del pezzo
         char name;      //rappresenta il tipo di pezzo nella scacchiera
         std::list <Casella> legalMoves;
+        //Pezzo(bool w);
 
     public:
 
-        Pezzo();
-        Pezzo(bool w);
+        //Pezzo();
+        
+        virtual ~Pezzo();
         
         //disabilitazione copy constructor e operator=
         //per ora li disabilito per evitare i problemi di slicing

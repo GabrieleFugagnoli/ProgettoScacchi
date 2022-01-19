@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/src/game.cpp" "/home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles/game.dir/src/game.cpp.o"
+  "/home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/src/game.cpp" "/home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles/game.dir/src/game.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -15,11 +15,11 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles/pezzo.dir/DependInfo.cmake"
-  "/home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles/casella.dir/DependInfo.cmake"
-  "/home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles/scacchiera.dir/DependInfo.cmake"
-  "/home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles/pezziderivati.dir/DependInfo.cmake"
-  "/home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles/helperfunctions.dir/DependInfo.cmake"
+  "/home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles/pezzo.dir/DependInfo.cmake"
+  "/home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles/casella.dir/DependInfo.cmake"
+  "/home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles/scacchiera.dir/DependInfo.cmake"
+  "/home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles/pezziderivati.dir/DependInfo.cmake"
+  "/home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles/helperfunctions.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

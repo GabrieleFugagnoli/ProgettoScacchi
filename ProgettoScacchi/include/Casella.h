@@ -14,7 +14,6 @@ class Casella{
 
     public:
 
-    Casella();
     //se la casella ha un pezzo allora bisogna mettere nel costruttore il pezzo e
     //false nella variabile isEmpty, se la casella e' vuota mettere
     //true nella variabile isEmpty
@@ -32,9 +31,10 @@ class Casella{
 
     bool Empty() const {return isEmpty; }
 
-    Casella& operator=(const Casella&);
+    Casella& operator=(const Casella& cas) noexcept;
+    Casella(const Casella& cas) noexcept;
 
-    bool operator==(const Casella& cas);
+    bool operator==(Casella const&);
 };
 
 #endif

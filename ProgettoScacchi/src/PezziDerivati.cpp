@@ -4,7 +4,8 @@
 #include <cstdlib>
 
 Cavallo::Cavallo(bool w)
-    : white{w} {
+    {
+        white = w;
         name = (w) ? 'c' : 'C';
     }
 
@@ -19,7 +20,8 @@ bool Cavallo::isLegal(Scacchiera& board, const Casella& start, const Casella& en
 }
 
 Torre::Torre(bool w)
-    : white{w}{
+    {
+        white = w;
         name = (w) ? 't' : 'T';
     }
 
@@ -61,7 +63,7 @@ bool Torre::isLegal(Scacchiera& board, const Casella& start, const Casella& end)
 }
 
 Alfiere::Alfiere(bool w)
-    : white{w} {
+    : white{w}{
         name = (w) ? 'a' : 'A';
     }
 

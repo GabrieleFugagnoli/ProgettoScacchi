@@ -44,10 +44,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi
+CMAKE_SOURCE_DIR = /home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/build
+CMAKE_BINARY_DIR = /home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -88,14 +88,14 @@ CMakeFiles/game.dir/all: CMakeFiles/casella.dir/all
 CMakeFiles/game.dir/all: CMakeFiles/pezzo.dir/all
 	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/depend
 	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles --progress-num=3,4 "Built target game"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles --progress-num=3,4 "Built target game"
 .PHONY : CMakeFiles/game.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/game.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles 12
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/game.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles 0
 .PHONY : CMakeFiles/game.dir/rule
 
 # Convenience name for target.
@@ -115,14 +115,14 @@ CMakeFiles/game.dir/clean:
 CMakeFiles/helperfunctions.dir/all:
 	$(MAKE) -f CMakeFiles/helperfunctions.dir/build.make CMakeFiles/helperfunctions.dir/depend
 	$(MAKE) -f CMakeFiles/helperfunctions.dir/build.make CMakeFiles/helperfunctions.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles --progress-num=5,6 "Built target helperfunctions"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles --progress-num=5,6 "Built target helperfunctions"
 .PHONY : CMakeFiles/helperfunctions.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/helperfunctions.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/helperfunctions.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles 0
 .PHONY : CMakeFiles/helperfunctions.dir/rule
 
 # Convenience name for target.
@@ -142,14 +142,14 @@ CMakeFiles/helperfunctions.dir/clean:
 CMakeFiles/pezziderivati.dir/all:
 	$(MAKE) -f CMakeFiles/pezziderivati.dir/build.make CMakeFiles/pezziderivati.dir/depend
 	$(MAKE) -f CMakeFiles/pezziderivati.dir/build.make CMakeFiles/pezziderivati.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles --progress-num=7,8 "Built target pezziderivati"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles --progress-num=7,8 "Built target pezziderivati"
 .PHONY : CMakeFiles/pezziderivati.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/pezziderivati.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pezziderivati.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles 0
 .PHONY : CMakeFiles/pezziderivati.dir/rule
 
 # Convenience name for target.
@@ -169,14 +169,14 @@ CMakeFiles/pezziderivati.dir/clean:
 CMakeFiles/scacchiera.dir/all:
 	$(MAKE) -f CMakeFiles/scacchiera.dir/build.make CMakeFiles/scacchiera.dir/depend
 	$(MAKE) -f CMakeFiles/scacchiera.dir/build.make CMakeFiles/scacchiera.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles --progress-num=11,12 "Built target scacchiera"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles --progress-num=11,12 "Built target scacchiera"
 .PHONY : CMakeFiles/scacchiera.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/scacchiera.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/scacchiera.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles 0
 .PHONY : CMakeFiles/scacchiera.dir/rule
 
 # Convenience name for target.
@@ -196,14 +196,14 @@ CMakeFiles/scacchiera.dir/clean:
 CMakeFiles/casella.dir/all:
 	$(MAKE) -f CMakeFiles/casella.dir/build.make CMakeFiles/casella.dir/depend
 	$(MAKE) -f CMakeFiles/casella.dir/build.make CMakeFiles/casella.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles --progress-num=1,2 "Built target casella"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles --progress-num=1,2 "Built target casella"
 .PHONY : CMakeFiles/casella.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/casella.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/casella.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles 0
 .PHONY : CMakeFiles/casella.dir/rule
 
 # Convenience name for target.
@@ -223,14 +223,14 @@ CMakeFiles/casella.dir/clean:
 CMakeFiles/pezzo.dir/all:
 	$(MAKE) -f CMakeFiles/pezzo.dir/build.make CMakeFiles/pezzo.dir/depend
 	$(MAKE) -f CMakeFiles/pezzo.dir/build.make CMakeFiles/pezzo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles --progress-num=9,10 "Built target pezzo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles --progress-num=9,10 "Built target pezzo"
 .PHONY : CMakeFiles/pezzo.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/pezzo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pezzo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles 0
 .PHONY : CMakeFiles/pezzo.dir/rule
 
 # Convenience name for target.

@@ -12,15 +12,16 @@ Scacchiera::Scacchiera()
 {
    for(int i = 0; i < 8; i++)
    {
-      scac.push_back(vector<Casella>(8));
+      scac.push_back(vector<Casella>{});
    }
    Torre t1{true};
    Casella a1{0, 0, t1, false};
-   scac[0][0] = a1;
+   scac[0].push_back(a1);
 
    Cavallo cav1{true};
    Casella b1{1, 0, cav1, false};
    scac[0][1] = b1;
+    
 
    Alfiere alf1{true};
    Casella c1{2, 0, alf1, false};

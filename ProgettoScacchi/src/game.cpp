@@ -9,7 +9,7 @@ using namespace std;
 
 int main(){
 	
-	//Scacchiera scacchiera;
+	//Scacchiera scac;
 
 	return 0;
 	
