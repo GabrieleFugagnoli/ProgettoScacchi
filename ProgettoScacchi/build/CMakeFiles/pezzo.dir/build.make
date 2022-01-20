@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi
+CMAKE_SOURCE_DIR = /home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/build
+CMAKE_BINARY_DIR = /home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/pezzo.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/pezzo.dir/flags.make
 
 CMakeFiles/pezzo.dir/src/Pezzo.cpp.o: CMakeFiles/pezzo.dir/flags.make
 CMakeFiles/pezzo.dir/src/Pezzo.cpp.o: ../src/Pezzo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pezzo.dir/src/Pezzo.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pezzo.dir/src/Pezzo.cpp.o -c /home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/src/Pezzo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pezzo.dir/src/Pezzo.cpp.o"
+	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pezzo.dir/src/Pezzo.cpp.o -c /home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/src/Pezzo.cpp
 
 CMakeFiles/pezzo.dir/src/Pezzo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pezzo.dir/src/Pezzo.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/src/Pezzo.cpp > CMakeFiles/pezzo.dir/src/Pezzo.cpp.i
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/src/Pezzo.cpp > CMakeFiles/pezzo.dir/src/Pezzo.cpp.i
 
 CMakeFiles/pezzo.dir/src/Pezzo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pezzo.dir/src/Pezzo.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/src/Pezzo.cpp -o CMakeFiles/pezzo.dir/src/Pezzo.cpp.s
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/src/Pezzo.cpp -o CMakeFiles/pezzo.dir/src/Pezzo.cpp.s
 
 # Object files for target pezzo
 pezzo_OBJECTS = \
@@ -80,7 +80,7 @@ pezzo_EXTERNAL_OBJECTS =
 libpezzo.a: CMakeFiles/pezzo.dir/src/Pezzo.cpp.o
 libpezzo.a: CMakeFiles/pezzo.dir/build.make
 libpezzo.a: CMakeFiles/pezzo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libpezzo.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libpezzo.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/pezzo.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pezzo.dir/link.txt --verbose=$(VERBOSE)
 
@@ -94,6 +94,6 @@ CMakeFiles/pezzo.dir/clean:
 .PHONY : CMakeFiles/pezzo.dir/clean
 
 CMakeFiles/pezzo.dir/depend:
-	cd /home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi /home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi /home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/build /home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/build /home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles/pezzo.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi /home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi /home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/build /home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/build /home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/build/CMakeFiles/pezzo.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/pezzo.dir/depend
 

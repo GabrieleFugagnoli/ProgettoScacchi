@@ -9,12 +9,24 @@
 ../include/Casella.h
 Pezzo.h
 ../include/Pezzo.h
+PezziDerivati.h
+../include/PezziDerivati.h
+
+../include/PezziDerivati.h
+list
+-
+Pezzo.h
+../include/Pezzo.h
 
 ../include/Pezzo.h
 list
 -
 
-/home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/src/Casella.cpp
+/home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/src/Casella.cpp
 Casella.h
-/home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/src/Casella.h
+/home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/src/Casella.h
+Pezzo.h
+/home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/src/Pezzo.h
+iostream
+-
 

@@ -1,6 +1,7 @@
 //Eduardo Lotto
 #ifndef PEZZO_H
 #define PEZZO_H
+
 #include <list>
 
 //class Casella;
@@ -41,11 +42,12 @@ class Pezzo{
         bool isWhite() const { return white; }
 
         char get_Name() const { return name; }
-	void set_Name(char a) { name=a; }
+	    void set_Name(char a) { name=a; }
         //virtual bool isLegal(Scacchiera& board, const Casella& start, const Casella& end) const;
 
         //void checkLegalMoves (Scacchiera& board, const Casella& start );
         //void recheckLegalMoves (Scacchiera& board, const Casella& pos, const Casella& start, const Casella& end);
 };
-void print_piece(Pezzo & pezzo);
+
+
 #endif

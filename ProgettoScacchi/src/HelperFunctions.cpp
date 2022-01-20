@@ -1,10 +1,14 @@
-/*//Gabriele Fugagnoli
+//Gabriele Fugagnoli
 
 #include "HelperFunctions.h"
 #include <string>
+#include <iostream>
 #include "Scacchiera.h"
+#include "Casella.h"
+#include "Pezzo.h"
 using namespace std;
 
+/*
 //Restituisce le coordinate della posizione di partenza della mossa sotto forma di un oggetto di classe Posizione
 int extract_start_X(string arg){
     const char firstCoordinate = arg[0];
@@ -49,3 +53,25 @@ int y = arg[4] - '0';
 return y;
 }*/
 
+void print_piece(Pezzo & pezzo)
+{
+   cout<<pezzo.get_Name()<<endl;
+}
+
+void print_casella(Casella & cas){
+    cout<<"Nome pezzo: ";
+    cout<<cas.get_Pezzo().get_Name()<<endl;
+    cout<<"Posizione x: ";
+    cout<<cas.get_X()<<endl;
+    cout<<"Posizione y: ";
+    cout<<cas.get_Y()<<endl;
+    cout<<"Casella vuota: ";
+    cout<<cas.Empty()<<endl;
+}
+
+void print_scacchiera(Scacchiera& scac)
+{
+   for (int i = 0; i<8; i++){
+    cout<< scac.get_Casella(0,i).get_Pezzo().get_Name() <<endl;
+   }
+}

@@ -1,12 +1,12 @@
-/*//Eduardo Lotto
+//Eduardo Lotto
 
 #include "Casella.h"
+#include "Pezzo.h"
+#include <iostream>
+
+using namespace std;
 
 
-bool Casella::operator==(const Casella& cas){
-    if(cas.get_X()==this->get_X() && cas.get_Y()==this->get_Y() ) return true;
-    return false;
-}
 
 Casella& Casella::operator=(const Casella& cas) noexcept{
     x = cas.get_X();
@@ -15,6 +15,14 @@ Casella& Casella::operator=(const Casella& cas) noexcept{
     isEmpty = cas.Empty();
     return *this;
 }
+
+/*
+bool Casella::operator==(const Casella& cas){
+    if(cas.get_X()==this->get_X() && cas.get_Y()==this->get_Y() ) return true;
+    return false;
+}
+
+
 
  Casella::Casella(Casella const& cas) noexcept
     : piece{cas.get_Pezzo()} {

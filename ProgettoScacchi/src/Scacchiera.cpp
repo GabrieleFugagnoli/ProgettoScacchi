@@ -1,4 +1,4 @@
-/*//Eduardo Lotto
+//Eduardo Lotto
 #include <iostream>
 #include <algorithm>
 #include "Scacchiera.h"
@@ -10,13 +10,39 @@ using namespace std;
 	
 Scacchiera::Scacchiera()
 {
+  Torre tor1{true};
+  Casella a1{0, 0, tor1, false};
+
+  Cavallo cav1{true};
+  Casella b1{1, 0, cav1, false};
+
+  Alfiere alf1{true};
+  Casella c1{2, 0, alf1, false};
+
+   Regina reg1{true};
+   Casella d1{3, 0, reg1, false};
+
+   Re re1{true};
+   Casella e1{4, 0, re1, false};
+
+   Alfiere alf2{true};
+   Casella f1{5, 0, alf2, false};
+
+   Cavallo cav2{true};
+   Casella g1{6, 0, cav2, false};
+
+   Torre tor2{true};
+   Casella h1{7, 0, tor2, false};
+  
+  scac.push_back(vector<Casella>{a1, b1, c1, d1, e1, f1, g1, h1});
+  /* 
    for(int i = 0; i < 8; i++)
    {
       scac.push_back(vector<Casella>{});
    }
    Torre t1{true};
    Casella a1{0, 0, t1, false};
-   scac[0].push_back(a1);
+   scac[0][0] = a1;
 
    Cavallo cav1{true};
    Casella b1{1, 0, cav1, false};
@@ -120,16 +146,22 @@ Scacchiera::Scacchiera()
    Torre t4{false};
    Casella h8{7, 7, t4, false};
    scac[7][7] = h8;
-   
+ */  
 }
-
+/*
 Scacchiera::Scacchiera(const Scacchiera& arg)
 {
    scac = arg.scac;
 }
-
-void print(Scacchiera& scac)
+*/
+/*
+void print_scacchiera(Scacchiera& scac)
 {
+   for (int i = 0; i<8; i++){
+    cout<< scac.get_Casella(0,i).get_Pezzo().get_Name() <<endl;
+    
+   }
+   
    for(int j = 7; j >= 0; j--)
    {
       cout << j+1 << " ";
@@ -143,4 +175,6 @@ void print(Scacchiera& scac)
    }
    cout << endl;
    cout << "  ABCDEFGH" << endl;
-}*/
+   
+}
+*/

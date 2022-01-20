@@ -3,6 +3,7 @@
 
 CMakeFiles/helperfunctions.dir/src/HelperFunctions.cpp.o: ../include/Casella.h
 CMakeFiles/helperfunctions.dir/src/HelperFunctions.cpp.o: ../include/HelperFunctions.h
+CMakeFiles/helperfunctions.dir/src/HelperFunctions.cpp.o: ../include/PezziDerivati.h
 CMakeFiles/helperfunctions.dir/src/HelperFunctions.cpp.o: ../include/Pezzo.h
 CMakeFiles/helperfunctions.dir/src/HelperFunctions.cpp.o: ../include/Scacchiera.h
 CMakeFiles/helperfunctions.dir/src/HelperFunctions.cpp.o: ../src/HelperFunctions.cpp

@@ -4,6 +4,7 @@
 //#include "Scacchiera.h"
 //#include "Casella.h"
 #include <iostream>
+
 using namespace std;
 /*Pezzo::Pezzo(bool w,char n)
 {
@@ -43,8 +44,5 @@ Pezzo::Pezzo(const Pezzo& cas) noexcept{
     name = cas.get_Name();
     legalMoves = cas.legalMoves;
 }*/
-void print_piece(Pezzo & pezzo)
-{
-   cout<<pezzo.get_Name()<<endl;
-}
+
 

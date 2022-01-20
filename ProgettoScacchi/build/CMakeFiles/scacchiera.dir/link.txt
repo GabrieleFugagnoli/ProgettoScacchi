@@ -1,2 +1,2 @@
-/usr/bin/ar qc libscacchiera.a  CMakeFiles/scacchiera.dir/src/Scacchiera.cpp.o
-/usr/bin/ranlib libscacchiera.a
+/bin/ar qc libscacchiera.a  CMakeFiles/scacchiera.dir/src/Scacchiera.cpp.o
+/bin/ranlib libscacchiera.a

@@ -4,6 +4,7 @@
 #include  "PezziDerivati.h"
 //#include "Scacchiera.h"
 #include <cstdlib>
+#include <list>
 
 Cavallo::Cavallo(bool w)
  : Pezzo(w) {
@@ -64,7 +65,8 @@ bool Torre::isLegal(Scacchiera& board, const Casella& start, const Casella& end)
 */
 Alfiere::Alfiere(bool w)
     : Pezzo(w) {
-        set_Name((w) ? 'a' : 'A');
+        if(w) set_Name('a');
+        else set_Name('A');
     }
 /*
 bool Alfiere::isLegal(Scacchiera& board, const Casella& start, const Casella& end) const{
@@ -136,7 +138,7 @@ bool Re::isLegal(Scacchiera& board, const Casella& start, const Casella& end) co
 */
 Regina::Regina(bool w)
      : Pezzo(w) {
-        name = (w) ? 'd' : 'D';
+        set_Name((w) ? 'd' : 'D');
     }
 /*
 bool Regina::isLegal(Scacchiera& board, const Casella& start, const Casella& end) const{

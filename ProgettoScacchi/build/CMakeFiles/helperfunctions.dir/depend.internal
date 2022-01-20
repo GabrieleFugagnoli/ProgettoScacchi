@@ -4,6 +4,7 @@
 CMakeFiles/helperfunctions.dir/src/HelperFunctions.cpp.o
  ../include/Casella.h
  ../include/HelperFunctions.h
+ ../include/PezziDerivati.h
  ../include/Pezzo.h
  ../include/Scacchiera.h
- /home/stefano/ESAME/ProgettoScacchi/ProgettoScacchi/src/HelperFunctions.cpp
+ /home/gabriele/Documents/LavoriLab/ProgettoScacchi/ProgettoScacchi/src/HelperFunctions.cpp
